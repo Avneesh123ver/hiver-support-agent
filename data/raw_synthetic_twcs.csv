@@ -1,0 +1,521 @@
+tweet_id,author_id,inbound,created_at,text,response_tweet_id,in_response_to_tweet_id,_gold_intent
+100000,cust5506,True,Fri Mar 01 09:00:00 +0000 2024,@AmazonHelp my order 877572 was supposed to arrive yesterday and it's still not here.,100001,,delivery_delay
+100001,115911,False,Fri Mar 01 10:10:00 +0000 2024,We're sorry your delivery is delayed. Could you DM us the order number so we can escalate with the carrier and get you an updated ETA? ^CD,,100000,delivery_delay
+100002,cust2679,True,Fri Mar 01 09:17:00 +0000 2024,"@AmazonHelp I returned item from order 872246 two weeks ago, still no refund.",100003,,refund_request
+100003,115911,False,Fri Mar 01 12:18:00 +0000 2024,Sorry for the delay on your refund. Refunds typically take 3-5 business days once processed. Please DM your order number so we can check the status. ^GH,,100002,refund_request
+100004,cust7912,True,Fri Mar 01 09:34:00 +0000 2024,@AmazonHelp why did the price of my item drop $20 right after I bought it (719176)?,100005,,price_complaint
+100005,115911,False,Fri Mar 01 09:50:00 +0000 2024,We understand the frustration. Please DM your order number so we can review pricing/eligibility for a price adjustment. ^QR,,100004,price_complaint
+100006,cust4811,True,Fri Mar 01 09:51:00 +0000 2024,Hi @AmazonHelp where is my order #329258? Been waiting 6 days now.,100007,,where_is_my_order
+100007,115911,False,Fri Mar 01 12:08:00 +0000 2024,"Hi, sorry for the wait! Please send us your order number via DM so we can check the latest tracking status for you. ^AB",,100006,where_is_my_order
+100008,cust4257,True,Fri Mar 01 10:08:00 +0000 2024,"Just want to say @AmazonHelp support fixed my issue with order 688508 super fast, thank you!",100009,,general_praise
+100009,115911,False,Fri Mar 01 13:19:00 +0000 2024,"Thank you so much for the kind words, glad we could help! 😊 ^ST",,100008,general_praise
+100010,cust8359,True,Fri Mar 01 10:25:00 +0000 2024,@AmazonHelp not okay that 331148 was cheaper for Prime members and I wasn't told.,100011,,price_complaint
+100011,115911,False,Fri Mar 01 13:03:00 +0000 2024,We understand the frustration. Please DM your order number so we can review pricing/eligibility for a price adjustment. ^QR,,100010,price_complaint
+100012,cust3615,True,Fri Mar 01 10:42:00 +0000 2024,"@AmazonHelp I need to cancel order 895667 immediately, ordered by mistake.",100013,,order_cancel
+100013,115911,False,Fri Mar 01 13:48:00 +0000 2024,We can help with that. Please DM your order number right away — if it hasn't shipped yet we can cancel it for you. ^IJ,,100012,order_cancel
+100014,cust3547,True,Fri Mar 01 10:59:00 +0000 2024,"Product from 391369 stopped working after 2 days, @AmazonHelp this is unacceptable.",100015,,product_defect
+100015,115911,False,Fri Mar 01 12:02:00 +0000 2024,"We're sorry to hear that. Please DM your order number and a photo if possible, and we'll get a replacement sent out. ^MN",,100014,product_defect
+100016,cust7224,True,Fri Mar 01 11:16:00 +0000 2024,"@AmazonHelp I can't log into my account, keeps saying invalid password even after reset.",100017,,login_account_issue
+100017,115911,False,Fri Mar 01 11:48:00 +0000 2024,Sorry you're having trouble logging in. Please DM us the email on the account (not the password) so we can look into this securely. ^KL,,100016,login_account_issue
+100018,cust5333,True,Fri Mar 01 11:33:00 +0000 2024,"@AmazonHelp locked out of my account for no reason, need help asap.",100019,,login_account_issue
+100019,115911,False,Fri Mar 01 15:07:00 +0000 2024,Sorry you're having trouble logging in. Please DM us the email on the account (not the password) so we can look into this securely. ^KL,,100018,login_account_issue
+100020,cust9785,True,Fri Mar 01 11:50:00 +0000 2024,"Still no sign of my package, order 581741. @AmazonHelp any update?",100021,,where_is_my_order
+100021,115911,False,Fri Mar 01 12:29:00 +0000 2024,"Hi, sorry for the wait! Please send us your order number via DM so we can check the latest tracking status for you. ^AB",,100020,where_is_my_order
+100022,cust5803,True,Fri Mar 01 12:07:00 +0000 2024,@AmazonHelp the item from order 678856 arrived broken/defective.,100023,,product_defect
+100023,115911,False,Fri Mar 01 15:47:00 +0000 2024,"We're sorry to hear that. Please DM your order number and a photo if possible, and we'll get a replacement sent out. ^MN",,100022,product_defect
+100024,cust4150,True,Fri Mar 01 12:24:00 +0000 2024,"@AmazonHelp great service today, appreciate the quick help.",100025,,general_praise
+100025,115911,False,Fri Mar 01 15:32:00 +0000 2024,"Thank you so much for the kind words, glad we could help! 😊 ^ST",,100024,general_praise
+100026,cust4733,True,Fri Mar 01 12:41:00 +0000 2024,@AmazonHelp my order 793384 was supposed to arrive yesterday and it's still not here.,100027,,delivery_delay
+100027,115911,False,Fri Mar 01 16:06:00 +0000 2024,We're sorry your delivery is delayed. Could you DM us the order number so we can escalate with the carrier and get you an updated ETA? ^CD,,100026,delivery_delay
+100028,cust4814,True,Fri Mar 01 12:58:00 +0000 2024,"@AmazonHelp I need to cancel order 996865 immediately, ordered by mistake.",100029,,order_cancel
+100029,115911,False,Fri Mar 01 16:47:00 +0000 2024,We can help with that. Please DM your order number right away — if it hasn't shipped yet we can cancel it for you. ^IJ,,100028,order_cancel
+100030,cust8428,True,Fri Mar 01 13:15:00 +0000 2024,This is the second time my delivery for 391476 has been delayed. @AmazonHelp not happy.,100031,,delivery_delay
+100031,115911,False,Fri Mar 01 16:05:00 +0000 2024,We're sorry your delivery is delayed. Could you DM us the order number so we can escalate with the carrier and get you an updated ETA? ^CD,,100030,delivery_delay
+100032,cust6820,True,Fri Mar 01 13:32:00 +0000 2024,"@AmazonHelp I can't log into my account, keeps saying invalid password even after reset.",100033,,login_account_issue
+100033,115911,False,Fri Mar 01 14:33:00 +0000 2024,Sorry you're having trouble logging in. Please DM us the email on the account (not the password) so we can look into this securely. ^KL,,100032,login_account_issue
+100034,cust2169,True,Fri Mar 01 13:49:00 +0000 2024,"@AmazonHelp please cancel order 816751, found it cheaper elsewhere.",100035,,order_cancel
+100035,115911,False,Fri Mar 01 16:32:00 +0000 2024,We can help with that. Please DM your order number right away — if it hasn't shipped yet we can cancel it for you. ^IJ,,100034,order_cancel
+100036,cust5010,True,Fri Mar 01 14:06:00 +0000 2024,@AmazonHelp order 864544 arrived but it's not what I ordered at all.,100037,,wrong_item
+100037,115911,False,Fri Mar 01 14:55:00 +0000 2024,"That's definitely not right, we apologize. Please DM your order number and we'll arrange a free replacement or refund right away. ^EF",,100036,wrong_item
+100038,cust4598,True,Fri Mar 01 14:23:00 +0000 2024,@AmazonHelp payment failed but money was deducted for 383060.,100039,,payment_issue
+100039,115911,False,Fri Mar 01 17:26:00 +0000 2024,Sorry about that! Please DM your order number so we can review the charges and issue a correction if needed. ^OP,,100038,payment_issue
+100040,cust1525,True,Fri Mar 01 14:40:00 +0000 2024,"@AmazonHelp I can't log into my account, keeps saying invalid password even after reset.",100041,,login_account_issue
+100041,115911,False,Fri Mar 01 18:14:00 +0000 2024,Sorry you're having trouble logging in. Please DM us the email on the account (not the password) so we can look into this securely. ^KL,,100040,login_account_issue
+100042,cust2084,True,Fri Mar 01 14:57:00 +0000 2024,"@AmazonHelp locked out of my account for no reason, need help asap.",100043,,login_account_issue
+100043,115911,False,Fri Mar 01 15:59:00 +0000 2024,Sorry you're having trouble logging in. Please DM us the email on the account (not the password) so we can look into this securely. ^KL,,100042,login_account_issue
+100044,cust9179,True,Fri Mar 01 15:14:00 +0000 2024,"@AmazonHelp great service today, appreciate the quick help.",100045,,general_praise
+100045,115911,False,Fri Mar 01 17:03:00 +0000 2024,"Thank you so much for the kind words, glad we could help! 😊 ^ST",,100044,general_praise
+100046,cust3287,True,Fri Mar 01 15:31:00 +0000 2024,"@AmazonHelp I was charged twice for order 377746, please fix this.",100047,,payment_issue
+100047,115911,False,Fri Mar 01 16:42:00 +0000 2024,Sorry about that! Please DM your order number so we can review the charges and issue a correction if needed. ^OP,,100046,payment_issue
+100048,cust8019,True,Fri Mar 01 15:48:00 +0000 2024,@AmazonHelp not okay that 883300 was cheaper for Prime members and I wasn't told.,100049,,price_complaint
+100049,115911,False,Fri Mar 01 19:45:00 +0000 2024,We understand the frustration. Please DM your order number so we can review pricing/eligibility for a price adjustment. ^QR,,100048,price_complaint
+100050,cust4593,True,Fri Mar 01 16:05:00 +0000 2024,"@AmazonHelp great service today, appreciate the quick help.",100051,,general_praise
+100051,115911,False,Fri Mar 01 16:48:00 +0000 2024,"Thank you so much for the kind words, glad we could help! 😊 ^ST",,100050,general_praise
+100052,cust1771,True,Fri Mar 01 16:22:00 +0000 2024,@AmazonHelp not okay that 195325 was cheaper for Prime members and I wasn't told.,100053,,price_complaint
+100053,115911,False,Fri Mar 01 20:10:00 +0000 2024,We understand the frustration. Please DM your order number so we can review pricing/eligibility for a price adjustment. ^QR,,100052,price_complaint
+100054,cust3621,True,Fri Mar 01 16:39:00 +0000 2024,@AmazonHelp my order 757924 was supposed to arrive yesterday and it's still not here.,100055,,delivery_delay
+100055,115911,False,Fri Mar 01 20:09:00 +0000 2024,We're sorry your delivery is delayed. Could you DM us the order number so we can escalate with the carrier and get you an updated ETA? ^CD,,100054,delivery_delay
+100056,cust7304,True,Fri Mar 01 16:56:00 +0000 2024,"@AmazonHelp defective unit received, order 166613, needs replacement.",100057,,product_defect
+100057,115911,False,Fri Mar 01 18:41:00 +0000 2024,"We're sorry to hear that. Please DM your order number and a photo if possible, and we'll get a replacement sent out. ^MN",,100056,product_defect
+100058,cust5119,True,Fri Mar 01 17:13:00 +0000 2024,"@AmazonHelp great service today, appreciate the quick help.",100059,,general_praise
+100059,115911,False,Fri Mar 01 19:42:00 +0000 2024,"Thank you so much for the kind words, glad we could help! 😊 ^ST",,100058,general_praise
+100060,cust2876,True,Fri Mar 01 17:30:00 +0000 2024,"Still no sign of my package, order 855731. @AmazonHelp any update?",100061,,where_is_my_order
+100061,115911,False,Fri Mar 01 20:32:00 +0000 2024,"Hi, sorry for the wait! Please send us your order number via DM so we can check the latest tracking status for you. ^AB",,100060,where_is_my_order
+100062,cust6573,True,Fri Mar 01 17:47:00 +0000 2024,@AmazonHelp not okay that 905934 was cheaper for Prime members and I wasn't told.,100063,,price_complaint
+100063,115911,False,Fri Mar 01 18:23:00 +0000 2024,We understand the frustration. Please DM your order number so we can review pricing/eligibility for a price adjustment. ^QR,,100062,price_complaint
+100064,cust8433,True,Fri Mar 01 18:04:00 +0000 2024,Can someone cancel 265840? @AmazonHelp it hasn't shipped yet I hope.,100065,,order_cancel
+100065,115911,False,Fri Mar 01 18:12:00 +0000 2024,We can help with that. Please DM your order number right away — if it hasn't shipped yet we can cancel it for you. ^IJ,,100064,order_cancel
+100066,cust3927,True,Fri Mar 01 18:21:00 +0000 2024,"@AmazonHelp please cancel order 898975, found it cheaper elsewhere.",100067,,order_cancel
+100067,115911,False,Fri Mar 01 20:38:00 +0000 2024,We can help with that. Please DM your order number right away — if it hasn't shipped yet we can cancel it for you. ^IJ,,100066,order_cancel
+100068,cust9317,True,Fri Mar 01 18:38:00 +0000 2024,"@AmazonHelp delivery for 412942 delayed again, no notification sent either.",100069,,delivery_delay
+100069,115911,False,Fri Mar 01 21:21:00 +0000 2024,We're sorry your delivery is delayed. Could you DM us the order number so we can escalate with the carrier and get you an updated ETA? ^CD,,100068,delivery_delay
+100070,cust3646,True,Fri Mar 01 18:55:00 +0000 2024,"@AmazonHelp I returned item from order 492077 two weeks ago, still no refund.",100071,,refund_request
+100071,115911,False,Fri Mar 01 21:21:00 +0000 2024,Sorry for the delay on your refund. Refunds typically take 3-5 business days once processed. Please DM your order number so we can check the status. ^GH,,100070,refund_request
+100072,cust6310,True,Fri Mar 01 19:12:00 +0000 2024,@AmazonHelp why did the price of my item drop $20 right after I bought it (728038)?,100073,,price_complaint
+100073,115911,False,Fri Mar 01 21:25:00 +0000 2024,We understand the frustration. Please DM your order number so we can review pricing/eligibility for a price adjustment. ^QR,,100072,price_complaint
+100074,cust6038,True,Fri Mar 01 19:29:00 +0000 2024,Hi @AmazonHelp where is my order #480612? Been waiting 6 days now.,100075,,where_is_my_order
+100075,115911,False,Fri Mar 01 20:38:00 +0000 2024,"Hi, sorry for the wait! Please send us your order number via DM so we can check the latest tracking status for you. ^AB",,100074,where_is_my_order
+100076,cust2290,True,Fri Mar 01 19:46:00 +0000 2024,Hi @AmazonHelp where is my order #694916? Been waiting 6 days now.,100077,,where_is_my_order
+100077,115911,False,Fri Mar 01 20:15:00 +0000 2024,"Hi, sorry for the wait! Please send us your order number via DM so we can check the latest tracking status for you. ^AB",,100076,where_is_my_order
+100078,cust9727,True,Fri Mar 01 20:03:00 +0000 2024,"@AmazonHelp I was charged twice for order 897549, please fix this.",100079,,payment_issue
+100079,115911,False,Fri Mar 01 23:27:00 +0000 2024,Sorry about that! Please DM your order number so we can review the charges and issue a correction if needed. ^OP,,100078,payment_issue
+100080,cust8787,True,Fri Mar 01 20:20:00 +0000 2024,@AmazonHelp I ordered a blue jacket but received a pair of shoes instead. Order 791798.,100081,,wrong_item
+100081,115911,False,Fri Mar 01 22:48:00 +0000 2024,"That's definitely not right, we apologize. Please DM your order number and we'll arrange a free replacement or refund right away. ^EF",,100080,wrong_item
+100082,cust7932,True,Fri Mar 01 20:37:00 +0000 2024,"Got the completely wrong item for order 653306 @AmazonHelp, this is frustrating.",100083,,wrong_item
+100083,115911,False,Fri Mar 01 21:39:00 +0000 2024,"That's definitely not right, we apologize. Please DM your order number and we'll arrange a free replacement or refund right away. ^EF",,100082,wrong_item
+100084,cust6107,True,Fri Mar 01 20:54:00 +0000 2024,@AmazonHelp why did the price of my item drop $20 right after I bought it (847581)?,100085,,price_complaint
+100085,115911,False,Fri Mar 01 22:44:00 +0000 2024,We understand the frustration. Please DM your order number so we can review pricing/eligibility for a price adjustment. ^QR,,100084,price_complaint
+100086,cust8397,True,Fri Mar 01 21:11:00 +0000 2024,"@AmazonHelp locked out of my account for no reason, need help asap.",100087,,login_account_issue
+100087,115911,False,Fri Mar 01 21:49:00 +0000 2024,Sorry you're having trouble logging in. Please DM us the email on the account (not the password) so we can look into this securely. ^KL,,100086,login_account_issue
+100088,cust6539,True,Fri Mar 01 21:28:00 +0000 2024,"@AmazonHelp I returned item from order 167136 two weeks ago, still no refund.",100089,,refund_request
+100089,115911,False,Fri Mar 01 21:41:00 +0000 2024,Sorry for the delay on your refund. Refunds typically take 3-5 business days once processed. Please DM your order number so we can check the status. ^GH,,100088,refund_request
+100090,cust4608,True,Fri Mar 01 21:45:00 +0000 2024,"Just want to say @AmazonHelp support fixed my issue with order 717024 super fast, thank you!",100091,,general_praise
+100091,115911,False,Fri Mar 01 21:54:00 +0000 2024,"Thank you so much for the kind words, glad we could help! 😊 ^ST",,100090,general_praise
+100092,cust1964,True,Fri Mar 01 22:02:00 +0000 2024,"@AmazonHelp delivery for 761759 delayed again, no notification sent either.",100093,,delivery_delay
+100093,115911,False,Fri Mar 01 23:08:00 +0000 2024,We're sorry your delivery is delayed. Could you DM us the order number so we can escalate with the carrier and get you an updated ETA? ^CD,,100092,delivery_delay
+100094,cust2160,True,Fri Mar 01 22:19:00 +0000 2024,@AmazonHelp my order 446479 was supposed to arrive yesterday and it's still not here.,100095,,delivery_delay
+100095,115911,False,Sat Mar 02 00:38:00 +0000 2024,We're sorry your delivery is delayed. Could you DM us the order number so we can escalate with the carrier and get you an updated ETA? ^CD,,100094,delivery_delay
+100096,cust8953,True,Fri Mar 01 22:36:00 +0000 2024,Where's my refund for order 801474? @AmazonHelp it's been 10 business days.,100097,,refund_request
+100097,115911,False,Fri Mar 01 23:38:00 +0000 2024,Sorry for the delay on your refund. Refunds typically take 3-5 business days once processed. Please DM your order number so we can check the status. ^GH,,100096,refund_request
+100098,cust8744,True,Fri Mar 01 22:53:00 +0000 2024,@AmazonHelp why did the price of my item drop $20 right after I bought it (858490)?,100099,,price_complaint
+100099,115911,False,Sat Mar 02 00:03:00 +0000 2024,We understand the frustration. Please DM your order number so we can review pricing/eligibility for a price adjustment. ^QR,,100098,price_complaint
+100100,cust2545,True,Fri Mar 01 23:10:00 +0000 2024,@AmazonHelp payment failed but money was deducted for 299659.,100101,,payment_issue
+100101,115911,False,Fri Mar 01 23:42:00 +0000 2024,Sorry about that! Please DM your order number so we can review the charges and issue a correction if needed. ^OP,,100100,payment_issue
+100102,cust7735,True,Fri Mar 01 23:27:00 +0000 2024,"Product from 544154 stopped working after 2 days, @AmazonHelp this is unacceptable.",100103,,product_defect
+100103,115911,False,Sat Mar 02 01:34:00 +0000 2024,"We're sorry to hear that. Please DM your order number and a photo if possible, and we'll get a replacement sent out. ^MN",,100102,product_defect
+100104,cust2612,True,Fri Mar 01 23:44:00 +0000 2024,"Still no sign of my package, order 785197. @AmazonHelp any update?",100105,,where_is_my_order
+100105,115911,False,Sat Mar 02 00:07:00 +0000 2024,"Hi, sorry for the wait! Please send us your order number via DM so we can check the latest tracking status for you. ^AB",,100104,where_is_my_order
+100106,cust2790,True,Sat Mar 02 00:01:00 +0000 2024,"@AmazonHelp defective unit received, order 455784, needs replacement.",100107,,product_defect
+100107,115911,False,Sat Mar 02 01:12:00 +0000 2024,"We're sorry to hear that. Please DM your order number and a photo if possible, and we'll get a replacement sent out. ^MN",,100106,product_defect
+100108,cust8350,True,Sat Mar 02 00:18:00 +0000 2024,"@AmazonHelp I returned item from order 662336 two weeks ago, still no refund.",100109,,refund_request
+100109,115911,False,Sat Mar 02 01:01:00 +0000 2024,Sorry for the delay on your refund. Refunds typically take 3-5 business days once processed. Please DM your order number so we can check the status. ^GH,,100108,refund_request
+100110,cust8579,True,Sat Mar 02 00:35:00 +0000 2024,@AmazonHelp the item from order 392075 arrived broken/defective.,100111,,product_defect
+100111,115911,False,Sat Mar 02 01:46:00 +0000 2024,"We're sorry to hear that. Please DM your order number and a photo if possible, and we'll get a replacement sent out. ^MN",,100110,product_defect
+100112,cust2604,True,Sat Mar 02 00:52:00 +0000 2024,This is the second time my delivery for 947272 has been delayed. @AmazonHelp not happy.,100113,,delivery_delay
+100113,115911,False,Sat Mar 02 01:12:00 +0000 2024,We're sorry your delivery is delayed. Could you DM us the order number so we can escalate with the carrier and get you an updated ETA? ^CD,,100112,delivery_delay
+100114,cust4872,True,Sat Mar 02 01:09:00 +0000 2024,@AmazonHelp why did the price of my item drop $20 right after I bought it (197793)?,100115,,price_complaint
+100115,115911,False,Sat Mar 02 01:59:00 +0000 2024,We understand the frustration. Please DM your order number so we can review pricing/eligibility for a price adjustment. ^QR,,100114,price_complaint
+100116,cust4502,True,Sat Mar 02 01:26:00 +0000 2024,"Product from 604740 stopped working after 2 days, @AmazonHelp this is unacceptable.",100117,,product_defect
+100117,115911,False,Sat Mar 02 05:15:00 +0000 2024,"We're sorry to hear that. Please DM your order number and a photo if possible, and we'll get a replacement sent out. ^MN",,100116,product_defect
+100118,cust7209,True,Sat Mar 02 01:43:00 +0000 2024,@AmazonHelp the item from order 272634 arrived broken/defective.,100119,,product_defect
+100119,115911,False,Sat Mar 02 01:51:00 +0000 2024,"We're sorry to hear that. Please DM your order number and a photo if possible, and we'll get a replacement sent out. ^MN",,100118,product_defect
+100120,cust8454,True,Sat Mar 02 02:00:00 +0000 2024,"Product from 922157 stopped working after 2 days, @AmazonHelp this is unacceptable.",100121,,product_defect
+100121,115911,False,Sat Mar 02 03:21:00 +0000 2024,"We're sorry to hear that. Please DM your order number and a photo if possible, and we'll get a replacement sent out. ^MN",,100120,product_defect
+100122,cust8973,True,Sat Mar 02 02:17:00 +0000 2024,"@AmazonHelp defective unit received, order 865990, needs replacement.",100123,,product_defect
+100123,115911,False,Sat Mar 02 03:04:00 +0000 2024,"We're sorry to hear that. Please DM your order number and a photo if possible, and we'll get a replacement sent out. ^MN",,100122,product_defect
+100124,cust1958,True,Sat Mar 02 02:34:00 +0000 2024,Where's my refund for order 328275? @AmazonHelp it's been 10 business days.,100125,,refund_request
+100125,115911,False,Sat Mar 02 05:10:00 +0000 2024,Sorry for the delay on your refund. Refunds typically take 3-5 business days once processed. Please DM your order number so we can check the status. ^GH,,100124,refund_request
+100126,cust6138,True,Sat Mar 02 02:51:00 +0000 2024,@AmazonHelp why did the price of my item drop $20 right after I bought it (884309)?,100127,,price_complaint
+100127,115911,False,Sat Mar 02 03:13:00 +0000 2024,We understand the frustration. Please DM your order number so we can review pricing/eligibility for a price adjustment. ^QR,,100126,price_complaint
+100128,cust9238,True,Sat Mar 02 03:08:00 +0000 2024,"Still no sign of my package, order 599948. @AmazonHelp any update?",100129,,where_is_my_order
+100129,115911,False,Sat Mar 02 06:54:00 +0000 2024,"Hi, sorry for the wait! Please send us your order number via DM so we can check the latest tracking status for you. ^AB",,100128,where_is_my_order
+100130,cust9320,True,Sat Mar 02 03:25:00 +0000 2024,@AmazonHelp why did the price of my item drop $20 right after I bought it (159642)?,100131,,price_complaint
+100131,115911,False,Sat Mar 02 03:53:00 +0000 2024,We understand the frustration. Please DM your order number so we can review pricing/eligibility for a price adjustment. ^QR,,100130,price_complaint
+100132,cust2113,True,Sat Mar 02 03:42:00 +0000 2024,@AmazonHelp I ordered a blue jacket but received a pair of shoes instead. Order 723939.,100133,,wrong_item
+100133,115911,False,Sat Mar 02 06:42:00 +0000 2024,"That's definitely not right, we apologize. Please DM your order number and we'll arrange a free replacement or refund right away. ^EF",,100132,wrong_item
+100134,cust5033,True,Sat Mar 02 03:59:00 +0000 2024,Where's my refund for order 225710? @AmazonHelp it's been 10 business days.,100135,,refund_request
+100135,115911,False,Sat Mar 02 06:35:00 +0000 2024,Sorry for the delay on your refund. Refunds typically take 3-5 business days once processed. Please DM your order number so we can check the status. ^GH,,100134,refund_request
+100136,cust2343,True,Sat Mar 02 04:16:00 +0000 2024,"Just want to say @AmazonHelp support fixed my issue with order 749468 super fast, thank you!",100137,,general_praise
+100137,115911,False,Sat Mar 02 06:11:00 +0000 2024,"Thank you so much for the kind words, glad we could help! 😊 ^ST",,100136,general_praise
+100138,cust4346,True,Sat Mar 02 04:33:00 +0000 2024,"@AmazonHelp great service today, appreciate the quick help.",100139,,general_praise
+100139,115911,False,Sat Mar 02 07:32:00 +0000 2024,"Thank you so much for the kind words, glad we could help! 😊 ^ST",,100138,general_praise
+100140,cust7484,True,Sat Mar 02 04:50:00 +0000 2024,"@AmazonHelp I can't log into my account, keeps saying invalid password even after reset.",100141,,login_account_issue
+100141,115911,False,Sat Mar 02 05:31:00 +0000 2024,Sorry you're having trouble logging in. Please DM us the email on the account (not the password) so we can look into this securely. ^KL,,100140,login_account_issue
+100142,cust2188,True,Sat Mar 02 05:07:00 +0000 2024,Can someone cancel 431535? @AmazonHelp it hasn't shipped yet I hope.,100143,,order_cancel
+100143,115911,False,Sat Mar 02 05:17:00 +0000 2024,We can help with that. Please DM your order number right away — if it hasn't shipped yet we can cancel it for you. ^IJ,,100142,order_cancel
+100144,cust2638,True,Sat Mar 02 05:24:00 +0000 2024,Being charged for an order 690341 I never placed @AmazonHelp.,100145,,payment_issue
+100145,115911,False,Sat Mar 02 05:50:00 +0000 2024,Sorry about that! Please DM your order number so we can review the charges and issue a correction if needed. ^OP,,100144,payment_issue
+100146,cust5345,True,Sat Mar 02 05:41:00 +0000 2024,@AmazonHelp why did the price of my item drop $20 right after I bought it (630458)?,100147,,price_complaint
+100147,115911,False,Sat Mar 02 06:22:00 +0000 2024,We understand the frustration. Please DM your order number so we can review pricing/eligibility for a price adjustment. ^QR,,100146,price_complaint
+100148,cust7054,True,Sat Mar 02 05:58:00 +0000 2024,"@AmazonHelp I can't log into my account, keeps saying invalid password even after reset.",100149,,login_account_issue
+100149,115911,False,Sat Mar 02 07:18:00 +0000 2024,Sorry you're having trouble logging in. Please DM us the email on the account (not the password) so we can look into this securely. ^KL,,100148,login_account_issue
+100150,cust9900,True,Sat Mar 02 06:15:00 +0000 2024,"Got the completely wrong item for order 974244 @AmazonHelp, this is frustrating.",100151,,wrong_item
+100151,115911,False,Sat Mar 02 09:23:00 +0000 2024,"That's definitely not right, we apologize. Please DM your order number and we'll arrange a free replacement or refund right away. ^EF",,100150,wrong_item
+100152,cust9666,True,Sat Mar 02 06:32:00 +0000 2024,"@AmazonHelp please cancel order 946305, found it cheaper elsewhere.",100153,,order_cancel
+100153,115911,False,Sat Mar 02 06:42:00 +0000 2024,We can help with that. Please DM your order number right away — if it hasn't shipped yet we can cancel it for you. ^IJ,,100152,order_cancel
+100154,cust2697,True,Sat Mar 02 06:49:00 +0000 2024,@AmazonHelp not okay that 795613 was cheaper for Prime members and I wasn't told.,100155,,price_complaint
+100155,115911,False,Sat Mar 02 10:41:00 +0000 2024,We understand the frustration. Please DM your order number so we can review pricing/eligibility for a price adjustment. ^QR,,100154,price_complaint
+100156,cust2753,True,Sat Mar 02 07:06:00 +0000 2024,"Got the completely wrong item for order 221035 @AmazonHelp, this is frustrating.",100157,,wrong_item
+100157,115911,False,Sat Mar 02 10:24:00 +0000 2024,"That's definitely not right, we apologize. Please DM your order number and we'll arrange a free replacement or refund right away. ^EF",,100156,wrong_item
+100158,cust5616,True,Sat Mar 02 07:23:00 +0000 2024,@AmazonHelp why did the price of my item drop $20 right after I bought it (385577)?,100159,,price_complaint
+100159,115911,False,Sat Mar 02 10:05:00 +0000 2024,We understand the frustration. Please DM your order number so we can review pricing/eligibility for a price adjustment. ^QR,,100158,price_complaint
+100160,cust4335,True,Sat Mar 02 07:40:00 +0000 2024,"@AmazonHelp requesting a refund on 459536, product was damaged on arrival.",100161,,refund_request
+100161,115911,False,Sat Mar 02 10:43:00 +0000 2024,Sorry for the delay on your refund. Refunds typically take 3-5 business days once processed. Please DM your order number so we can check the status. ^GH,,100160,refund_request
+100162,cust5114,True,Sat Mar 02 07:57:00 +0000 2024,"@AmazonHelp please cancel order 612262, found it cheaper elsewhere.",100163,,order_cancel
+100163,115911,False,Sat Mar 02 11:56:00 +0000 2024,We can help with that. Please DM your order number right away — if it hasn't shipped yet we can cancel it for you. ^IJ,,100162,order_cancel
+100164,cust7939,True,Sat Mar 02 08:14:00 +0000 2024,Hi @AmazonHelp where is my order #765095? Been waiting 6 days now.,100165,,where_is_my_order
+100165,115911,False,Sat Mar 02 11:54:00 +0000 2024,"Hi, sorry for the wait! Please send us your order number via DM so we can check the latest tracking status for you. ^AB",,100164,where_is_my_order
+100166,cust6464,True,Sat Mar 02 08:31:00 +0000 2024,"@AmazonHelp I need to cancel order 103717 immediately, ordered by mistake.",100167,,order_cancel
+100167,115911,False,Sat Mar 02 11:56:00 +0000 2024,We can help with that. Please DM your order number right away — if it hasn't shipped yet we can cancel it for you. ^IJ,,100166,order_cancel
+100168,cust3647,True,Sat Mar 02 08:48:00 +0000 2024,@AmazonHelp order 374680 arrived but it's not what I ordered at all.,100169,,wrong_item
+100169,115911,False,Sat Mar 02 12:05:00 +0000 2024,"That's definitely not right, we apologize. Please DM your order number and we'll arrange a free replacement or refund right away. ^EF",,100168,wrong_item
+100170,cust8007,True,Sat Mar 02 09:05:00 +0000 2024,Being charged for an order 839945 I never placed @AmazonHelp.,100171,,payment_issue
+100171,115911,False,Sat Mar 02 11:36:00 +0000 2024,Sorry about that! Please DM your order number so we can review the charges and issue a correction if needed. ^OP,,100170,payment_issue
+100172,cust3442,True,Sat Mar 02 09:22:00 +0000 2024,Hi @AmazonHelp where is my order #178898? Been waiting 6 days now.,100173,,where_is_my_order
+100173,115911,False,Sat Mar 02 11:49:00 +0000 2024,"Hi, sorry for the wait! Please send us your order number via DM so we can check the latest tracking status for you. ^AB",,100172,where_is_my_order
+100174,cust3426,True,Sat Mar 02 09:39:00 +0000 2024,@AmazonHelp can you tell me the status of order 710805? Tracking hasn't updated in 3 days.,100175,,where_is_my_order
+100175,115911,False,Sat Mar 02 11:37:00 +0000 2024,"Hi, sorry for the wait! Please send us your order number via DM so we can check the latest tracking status for you. ^AB",,100174,where_is_my_order
+100176,cust6974,True,Sat Mar 02 09:56:00 +0000 2024,@AmazonHelp I ordered a blue jacket but received a pair of shoes instead. Order 423232.,100177,,wrong_item
+100177,115911,False,Sat Mar 02 13:54:00 +0000 2024,"That's definitely not right, we apologize. Please DM your order number and we'll arrange a free replacement or refund right away. ^EF",,100176,wrong_item
+100178,cust5088,True,Sat Mar 02 10:13:00 +0000 2024,@AmazonHelp can you tell me the status of order 320281? Tracking hasn't updated in 3 days.,100179,,where_is_my_order
+100179,115911,False,Sat Mar 02 13:11:00 +0000 2024,"Hi, sorry for the wait! Please send us your order number via DM so we can check the latest tracking status for you. ^AB",,100178,where_is_my_order
+100180,cust7658,True,Sat Mar 02 10:30:00 +0000 2024,This is the second time my delivery for 918011 has been delayed. @AmazonHelp not happy.,100181,,delivery_delay
+100181,115911,False,Sat Mar 02 13:16:00 +0000 2024,We're sorry your delivery is delayed. Could you DM us the order number so we can escalate with the carrier and get you an updated ETA? ^CD,,100180,delivery_delay
+100182,cust3900,True,Sat Mar 02 10:47:00 +0000 2024,@AmazonHelp I ordered a blue jacket but received a pair of shoes instead. Order 270395.,100183,,wrong_item
+100183,115911,False,Sat Mar 02 14:40:00 +0000 2024,"That's definitely not right, we apologize. Please DM your order number and we'll arrange a free replacement or refund right away. ^EF",,100182,wrong_item
+100184,cust6442,True,Sat Mar 02 11:04:00 +0000 2024,@AmazonHelp the item from order 288073 arrived broken/defective.,100185,,product_defect
+100185,115911,False,Sat Mar 02 14:32:00 +0000 2024,"We're sorry to hear that. Please DM your order number and a photo if possible, and we'll get a replacement sent out. ^MN",,100184,product_defect
+100186,cust5065,True,Sat Mar 02 11:21:00 +0000 2024,"@AmazonHelp defective unit received, order 870763, needs replacement.",100187,,product_defect
+100187,115911,False,Sat Mar 02 12:37:00 +0000 2024,"We're sorry to hear that. Please DM your order number and a photo if possible, and we'll get a replacement sent out. ^MN",,100186,product_defect
+100188,cust7267,True,Sat Mar 02 11:38:00 +0000 2024,@AmazonHelp order 213346 arrived but it's not what I ordered at all.,100189,,wrong_item
+100189,115911,False,Sat Mar 02 15:29:00 +0000 2024,"That's definitely not right, we apologize. Please DM your order number and we'll arrange a free replacement or refund right away. ^EF",,100188,wrong_item
+100190,cust4269,True,Sat Mar 02 11:55:00 +0000 2024,@AmazonHelp can you tell me the status of order 333238? Tracking hasn't updated in 3 days.,100191,,where_is_my_order
+100191,115911,False,Sat Mar 02 15:32:00 +0000 2024,"Hi, sorry for the wait! Please send us your order number via DM so we can check the latest tracking status for you. ^AB",,100190,where_is_my_order
+100192,cust4728,True,Sat Mar 02 12:12:00 +0000 2024,@AmazonHelp payment failed but money was deducted for 420015.,100193,,payment_issue
+100193,115911,False,Sat Mar 02 13:17:00 +0000 2024,Sorry about that! Please DM your order number so we can review the charges and issue a correction if needed. ^OP,,100192,payment_issue
+100194,cust7528,True,Sat Mar 02 12:29:00 +0000 2024,"Still no sign of my package, order 302511. @AmazonHelp any update?",100195,,where_is_my_order
+100195,115911,False,Sat Mar 02 14:01:00 +0000 2024,"Hi, sorry for the wait! Please send us your order number via DM so we can check the latest tracking status for you. ^AB",,100194,where_is_my_order
+100196,cust5573,True,Sat Mar 02 12:46:00 +0000 2024,"@AmazonHelp I need to cancel order 910891 immediately, ordered by mistake.",100197,,order_cancel
+100197,115911,False,Sat Mar 02 14:23:00 +0000 2024,We can help with that. Please DM your order number right away — if it hasn't shipped yet we can cancel it for you. ^IJ,,100196,order_cancel
+100198,cust9785,True,Sat Mar 02 13:03:00 +0000 2024,@AmazonHelp not okay that 812526 was cheaper for Prime members and I wasn't told.,100199,,price_complaint
+100199,115911,False,Sat Mar 02 14:35:00 +0000 2024,We understand the frustration. Please DM your order number so we can review pricing/eligibility for a price adjustment. ^QR,,100198,price_complaint
+100200,cust3925,True,Sat Mar 02 13:20:00 +0000 2024,Hi @AmazonHelp where is my order #373903? Been waiting 6 days now.,100201,,where_is_my_order
+100201,115911,False,Sat Mar 02 15:56:00 +0000 2024,"Hi, sorry for the wait! Please send us your order number via DM so we can check the latest tracking status for you. ^AB",,100200,where_is_my_order
+100202,cust8119,True,Sat Mar 02 13:37:00 +0000 2024,"@AmazonHelp I need to cancel order 213668 immediately, ordered by mistake.",100203,,order_cancel
+100203,115911,False,Sat Mar 02 15:13:00 +0000 2024,We can help with that. Please DM your order number right away — if it hasn't shipped yet we can cancel it for you. ^IJ,,100202,order_cancel
+100204,cust9379,True,Sat Mar 02 13:54:00 +0000 2024,"@AmazonHelp locked out of my account for no reason, need help asap.",100205,,login_account_issue
+100205,115911,False,Sat Mar 02 14:31:00 +0000 2024,Sorry you're having trouble logging in. Please DM us the email on the account (not the password) so we can look into this securely. ^KL,,100204,login_account_issue
+100206,cust5173,True,Sat Mar 02 14:11:00 +0000 2024,"@AmazonHelp defective unit received, order 299312, needs replacement.",100207,,product_defect
+100207,115911,False,Sat Mar 02 14:30:00 +0000 2024,"We're sorry to hear that. Please DM your order number and a photo if possible, and we'll get a replacement sent out. ^MN",,100206,product_defect
+100208,cust9821,True,Sat Mar 02 14:28:00 +0000 2024,@AmazonHelp the item from order 645175 arrived broken/defective.,100209,,product_defect
+100209,115911,False,Sat Mar 02 17:31:00 +0000 2024,"We're sorry to hear that. Please DM your order number and a photo if possible, and we'll get a replacement sent out. ^MN",,100208,product_defect
+100210,cust2146,True,Sat Mar 02 14:45:00 +0000 2024,Where's my refund for order 552248? @AmazonHelp it's been 10 business days.,100211,,refund_request
+100211,115911,False,Sat Mar 02 17:43:00 +0000 2024,Sorry for the delay on your refund. Refunds typically take 3-5 business days once processed. Please DM your order number so we can check the status. ^GH,,100210,refund_request
+100212,cust3041,True,Sat Mar 02 15:02:00 +0000 2024,"Account issue again @AmazonHelp, 2FA code never arrives.",100213,,login_account_issue
+100213,115911,False,Sat Mar 02 18:14:00 +0000 2024,Sorry you're having trouble logging in. Please DM us the email on the account (not the password) so we can look into this securely. ^KL,,100212,login_account_issue
+100214,cust7691,True,Sat Mar 02 15:19:00 +0000 2024,"@AmazonHelp please cancel order 424308, found it cheaper elsewhere.",100215,,order_cancel
+100215,115911,False,Sat Mar 02 16:50:00 +0000 2024,We can help with that. Please DM your order number right away — if it hasn't shipped yet we can cancel it for you. ^IJ,,100214,order_cancel
+100216,cust3085,True,Sat Mar 02 15:36:00 +0000 2024,"@AmazonHelp defective unit received, order 410016, needs replacement.",100217,,product_defect
+100217,115911,False,Sat Mar 02 16:33:00 +0000 2024,"We're sorry to hear that. Please DM your order number and a photo if possible, and we'll get a replacement sent out. ^MN",,100216,product_defect
+100218,cust3851,True,Sat Mar 02 15:53:00 +0000 2024,"@AmazonHelp defective unit received, order 497562, needs replacement.",100219,,product_defect
+100219,115911,False,Sat Mar 02 18:38:00 +0000 2024,"We're sorry to hear that. Please DM your order number and a photo if possible, and we'll get a replacement sent out. ^MN",,100218,product_defect
+100220,cust9977,True,Sat Mar 02 16:10:00 +0000 2024,"@AmazonHelp great service today, appreciate the quick help.",100221,,general_praise
+100221,115911,False,Sat Mar 02 19:51:00 +0000 2024,"Thank you so much for the kind words, glad we could help! 😊 ^ST",,100220,general_praise
+100222,cust4443,True,Sat Mar 02 16:27:00 +0000 2024,@AmazonHelp can you tell me the status of order 400850? Tracking hasn't updated in 3 days.,100223,,where_is_my_order
+100223,115911,False,Sat Mar 02 18:25:00 +0000 2024,"Hi, sorry for the wait! Please send us your order number via DM so we can check the latest tracking status for you. ^AB",,100222,where_is_my_order
+100224,cust8238,True,Sat Mar 02 16:44:00 +0000 2024,"@AmazonHelp great service today, appreciate the quick help.",100225,,general_praise
+100225,115911,False,Sat Mar 02 18:45:00 +0000 2024,"Thank you so much for the kind words, glad we could help! 😊 ^ST",,100224,general_praise
+100226,cust3780,True,Sat Mar 02 17:01:00 +0000 2024,"@AmazonHelp requesting a refund on 596171, product was damaged on arrival.",100227,,refund_request
+100227,115911,False,Sat Mar 02 19:57:00 +0000 2024,Sorry for the delay on your refund. Refunds typically take 3-5 business days once processed. Please DM your order number so we can check the status. ^GH,,100226,refund_request
+100228,cust6491,True,Sat Mar 02 17:18:00 +0000 2024,This is the second time my delivery for 640490 has been delayed. @AmazonHelp not happy.,100229,,delivery_delay
+100229,115911,False,Sat Mar 02 17:49:00 +0000 2024,We're sorry your delivery is delayed. Could you DM us the order number so we can escalate with the carrier and get you an updated ETA? ^CD,,100228,delivery_delay
+100230,cust4680,True,Sat Mar 02 17:35:00 +0000 2024,"@AmazonHelp requesting a refund on 425498, product was damaged on arrival.",100231,,refund_request
+100231,115911,False,Sat Mar 02 21:09:00 +0000 2024,Sorry for the delay on your refund. Refunds typically take 3-5 business days once processed. Please DM your order number so we can check the status. ^GH,,100230,refund_request
+100232,cust1757,True,Sat Mar 02 17:52:00 +0000 2024,"@AmazonHelp I returned item from order 125611 two weeks ago, still no refund.",100233,,refund_request
+100233,115911,False,Sat Mar 02 19:02:00 +0000 2024,Sorry for the delay on your refund. Refunds typically take 3-5 business days once processed. Please DM your order number so we can check the status. ^GH,,100232,refund_request
+100234,cust2193,True,Sat Mar 02 18:09:00 +0000 2024,Being charged for an order 991014 I never placed @AmazonHelp.,100235,,payment_issue
+100235,115911,False,Sat Mar 02 20:13:00 +0000 2024,Sorry about that! Please DM your order number so we can review the charges and issue a correction if needed. ^OP,,100234,payment_issue
+100236,cust4185,True,Sat Mar 02 18:26:00 +0000 2024,"@AmazonHelp defective unit received, order 703634, needs replacement.",100237,,product_defect
+100237,115911,False,Sat Mar 02 21:37:00 +0000 2024,"We're sorry to hear that. Please DM your order number and a photo if possible, and we'll get a replacement sent out. ^MN",,100236,product_defect
+100238,cust4997,True,Sat Mar 02 18:43:00 +0000 2024,"Product from 519066 stopped working after 2 days, @AmazonHelp this is unacceptable.",100239,,product_defect
+100239,115911,False,Sat Mar 02 19:28:00 +0000 2024,"We're sorry to hear that. Please DM your order number and a photo if possible, and we'll get a replacement sent out. ^MN",,100238,product_defect
+100240,cust7965,True,Sat Mar 02 19:00:00 +0000 2024,Hi @AmazonHelp where is my order #916232? Been waiting 6 days now.,100241,,where_is_my_order
+100241,115911,False,Sat Mar 02 20:04:00 +0000 2024,"Hi, sorry for the wait! Please send us your order number via DM so we can check the latest tracking status for you. ^AB",,100240,where_is_my_order
+100242,cust8611,True,Sat Mar 02 19:17:00 +0000 2024,@AmazonHelp order 643118 arrived but it's not what I ordered at all.,100243,,wrong_item
+100243,115911,False,Sat Mar 02 19:37:00 +0000 2024,"That's definitely not right, we apologize. Please DM your order number and we'll arrange a free replacement or refund right away. ^EF",,100242,wrong_item
+100244,cust2988,True,Sat Mar 02 19:34:00 +0000 2024,@AmazonHelp why did the price of my item drop $20 right after I bought it (989545)?,100245,,price_complaint
+100245,115911,False,Sat Mar 02 21:38:00 +0000 2024,We understand the frustration. Please DM your order number so we can review pricing/eligibility for a price adjustment. ^QR,,100244,price_complaint
+100246,cust9702,True,Sat Mar 02 19:51:00 +0000 2024,"Got the completely wrong item for order 800005 @AmazonHelp, this is frustrating.",100247,,wrong_item
+100247,115911,False,Sat Mar 02 22:22:00 +0000 2024,"That's definitely not right, we apologize. Please DM your order number and we'll arrange a free replacement or refund right away. ^EF",,100246,wrong_item
+100248,cust8251,True,Sat Mar 02 20:08:00 +0000 2024,"@AmazonHelp great service today, appreciate the quick help.",100249,,general_praise
+100249,115911,False,Sat Mar 02 22:52:00 +0000 2024,"Thank you so much for the kind words, glad we could help! 😊 ^ST",,100248,general_praise
+100250,cust9976,True,Sat Mar 02 20:25:00 +0000 2024,@AmazonHelp not okay that 970914 was cheaper for Prime members and I wasn't told.,100251,,price_complaint
+100251,115911,False,Sat Mar 02 22:27:00 +0000 2024,We understand the frustration. Please DM your order number so we can review pricing/eligibility for a price adjustment. ^QR,,100250,price_complaint
+100252,cust8373,True,Sat Mar 02 20:42:00 +0000 2024,@AmazonHelp order 597732 arrived but it's not what I ordered at all.,100253,,wrong_item
+100253,115911,False,Sat Mar 02 21:56:00 +0000 2024,"That's definitely not right, we apologize. Please DM your order number and we'll arrange a free replacement or refund right away. ^EF",,100252,wrong_item
+100254,cust9540,True,Sat Mar 02 20:59:00 +0000 2024,"@AmazonHelp requesting a refund on 390782, product was damaged on arrival.",100255,,refund_request
+100255,115911,False,Sat Mar 02 23:11:00 +0000 2024,Sorry for the delay on your refund. Refunds typically take 3-5 business days once processed. Please DM your order number so we can check the status. ^GH,,100254,refund_request
+100256,cust2269,True,Sat Mar 02 21:16:00 +0000 2024,Where's my refund for order 561239? @AmazonHelp it's been 10 business days.,100257,,refund_request
+100257,115911,False,Sun Mar 03 00:26:00 +0000 2024,Sorry for the delay on your refund. Refunds typically take 3-5 business days once processed. Please DM your order number so we can check the status. ^GH,,100256,refund_request
+100258,cust6502,True,Sat Mar 02 21:33:00 +0000 2024,"@AmazonHelp I need to cancel order 384913 immediately, ordered by mistake.",100259,,order_cancel
+100259,115911,False,Sat Mar 02 23:02:00 +0000 2024,We can help with that. Please DM your order number right away — if it hasn't shipped yet we can cancel it for you. ^IJ,,100258,order_cancel
+100260,cust3471,True,Sat Mar 02 21:50:00 +0000 2024,@AmazonHelp why did the price of my item drop $20 right after I bought it (245095)?,100261,,price_complaint
+100261,115911,False,Sat Mar 02 22:57:00 +0000 2024,We understand the frustration. Please DM your order number so we can review pricing/eligibility for a price adjustment. ^QR,,100260,price_complaint
+100262,cust4505,True,Sat Mar 02 22:07:00 +0000 2024,"@AmazonHelp defective unit received, order 260227, needs replacement.",100263,,product_defect
+100263,115911,False,Sat Mar 02 22:31:00 +0000 2024,"We're sorry to hear that. Please DM your order number and a photo if possible, and we'll get a replacement sent out. ^MN",,100262,product_defect
+100264,cust9890,True,Sat Mar 02 22:24:00 +0000 2024,"Product from 446954 stopped working after 2 days, @AmazonHelp this is unacceptable.",100265,,product_defect
+100265,115911,False,Sun Mar 03 00:31:00 +0000 2024,"We're sorry to hear that. Please DM your order number and a photo if possible, and we'll get a replacement sent out. ^MN",,100264,product_defect
+100266,cust7883,True,Sat Mar 02 22:41:00 +0000 2024,@AmazonHelp the item from order 316881 arrived broken/defective.,100267,,product_defect
+100267,115911,False,Sun Mar 03 00:28:00 +0000 2024,"We're sorry to hear that. Please DM your order number and a photo if possible, and we'll get a replacement sent out. ^MN",,100266,product_defect
+100268,cust7232,True,Sat Mar 02 22:58:00 +0000 2024,"Just want to say @AmazonHelp support fixed my issue with order 998348 super fast, thank you!",100269,,general_praise
+100269,115911,False,Sun Mar 03 01:08:00 +0000 2024,"Thank you so much for the kind words, glad we could help! 😊 ^ST",,100268,general_praise
+100270,cust7389,True,Sat Mar 02 23:15:00 +0000 2024,@AmazonHelp can you tell me the status of order 413118? Tracking hasn't updated in 3 days.,100271,,where_is_my_order
+100271,115911,False,Sun Mar 03 03:01:00 +0000 2024,"Hi, sorry for the wait! Please send us your order number via DM so we can check the latest tracking status for you. ^AB",,100270,where_is_my_order
+100272,cust9947,True,Sat Mar 02 23:32:00 +0000 2024,"@AmazonHelp defective unit received, order 883826, needs replacement.",100273,,product_defect
+100273,115911,False,Sun Mar 03 03:04:00 +0000 2024,"We're sorry to hear that. Please DM your order number and a photo if possible, and we'll get a replacement sent out. ^MN",,100272,product_defect
+100274,cust4595,True,Sat Mar 02 23:49:00 +0000 2024,"Just want to say @AmazonHelp support fixed my issue with order 611945 super fast, thank you!",100275,,general_praise
+100275,115911,False,Sun Mar 03 01:06:00 +0000 2024,"Thank you so much for the kind words, glad we could help! 😊 ^ST",,100274,general_praise
+100276,cust7371,True,Sun Mar 03 00:06:00 +0000 2024,"Product from 130434 stopped working after 2 days, @AmazonHelp this is unacceptable.",100277,,product_defect
+100277,115911,False,Sun Mar 03 01:40:00 +0000 2024,"We're sorry to hear that. Please DM your order number and a photo if possible, and we'll get a replacement sent out. ^MN",,100276,product_defect
+100278,cust8657,True,Sun Mar 03 00:23:00 +0000 2024,"@AmazonHelp defective unit received, order 273061, needs replacement.",100279,,product_defect
+100279,115911,False,Sun Mar 03 01:03:00 +0000 2024,"We're sorry to hear that. Please DM your order number and a photo if possible, and we'll get a replacement sent out. ^MN",,100278,product_defect
+100280,cust1444,True,Sun Mar 03 00:40:00 +0000 2024,"Just want to say @AmazonHelp support fixed my issue with order 513160 super fast, thank you!",100281,,general_praise
+100281,115911,False,Sun Mar 03 01:09:00 +0000 2024,"Thank you so much for the kind words, glad we could help! 😊 ^ST",,100280,general_praise
+100282,cust3977,True,Sun Mar 03 00:57:00 +0000 2024,@AmazonHelp the item from order 584125 arrived broken/defective.,100283,,product_defect
+100283,115911,False,Sun Mar 03 01:17:00 +0000 2024,"We're sorry to hear that. Please DM your order number and a photo if possible, and we'll get a replacement sent out. ^MN",,100282,product_defect
+100284,cust4467,True,Sun Mar 03 01:14:00 +0000 2024,Can someone cancel 443254? @AmazonHelp it hasn't shipped yet I hope.,100285,,order_cancel
+100285,115911,False,Sun Mar 03 03:18:00 +0000 2024,We can help with that. Please DM your order number right away — if it hasn't shipped yet we can cancel it for you. ^IJ,,100284,order_cancel
+100286,cust7211,True,Sun Mar 03 01:31:00 +0000 2024,"@AmazonHelp locked out of my account for no reason, need help asap.",100287,,login_account_issue
+100287,115911,False,Sun Mar 03 02:50:00 +0000 2024,Sorry you're having trouble logging in. Please DM us the email on the account (not the password) so we can look into this securely. ^KL,,100286,login_account_issue
+100288,cust2341,True,Sun Mar 03 01:48:00 +0000 2024,"Product from 975467 stopped working after 2 days, @AmazonHelp this is unacceptable.",100289,,product_defect
+100289,115911,False,Sun Mar 03 03:56:00 +0000 2024,"We're sorry to hear that. Please DM your order number and a photo if possible, and we'll get a replacement sent out. ^MN",,100288,product_defect
+100290,cust1853,True,Sun Mar 03 02:05:00 +0000 2024,"Still no sign of my package, order 665621. @AmazonHelp any update?",100291,,where_is_my_order
+100291,115911,False,Sun Mar 03 03:42:00 +0000 2024,"Hi, sorry for the wait! Please send us your order number via DM so we can check the latest tracking status for you. ^AB",,100290,where_is_my_order
+100292,cust1659,True,Sun Mar 03 02:22:00 +0000 2024,"@AmazonHelp requesting a refund on 171951, product was damaged on arrival.",100293,,refund_request
+100293,115911,False,Sun Mar 03 05:43:00 +0000 2024,Sorry for the delay on your refund. Refunds typically take 3-5 business days once processed. Please DM your order number so we can check the status. ^GH,,100292,refund_request
+100294,cust1333,True,Sun Mar 03 02:39:00 +0000 2024,Hi @AmazonHelp where is my order #309044? Been waiting 6 days now.,100295,,where_is_my_order
+100295,115911,False,Sun Mar 03 05:26:00 +0000 2024,"Hi, sorry for the wait! Please send us your order number via DM so we can check the latest tracking status for you. ^AB",,100294,where_is_my_order
+100296,cust8758,True,Sun Mar 03 02:56:00 +0000 2024,@AmazonHelp I ordered a blue jacket but received a pair of shoes instead. Order 232352.,100297,,wrong_item
+100297,115911,False,Sun Mar 03 05:55:00 +0000 2024,"That's definitely not right, we apologize. Please DM your order number and we'll arrange a free replacement or refund right away. ^EF",,100296,wrong_item
+100298,cust8619,True,Sun Mar 03 03:13:00 +0000 2024,"@AmazonHelp delivery for 328552 delayed again, no notification sent either.",100299,,delivery_delay
+100299,115911,False,Sun Mar 03 06:20:00 +0000 2024,We're sorry your delivery is delayed. Could you DM us the order number so we can escalate with the carrier and get you an updated ETA? ^CD,,100298,delivery_delay
+100300,cust2876,True,Sun Mar 03 03:30:00 +0000 2024,Can someone cancel 275939? @AmazonHelp it hasn't shipped yet I hope.,100301,,order_cancel
+100301,115911,False,Sun Mar 03 06:57:00 +0000 2024,We can help with that. Please DM your order number right away — if it hasn't shipped yet we can cancel it for you. ^IJ,,100300,order_cancel
+100302,cust1420,True,Sun Mar 03 03:47:00 +0000 2024,"Got the completely wrong item for order 213349 @AmazonHelp, this is frustrating.",100303,,wrong_item
+100303,115911,False,Sun Mar 03 05:14:00 +0000 2024,"That's definitely not right, we apologize. Please DM your order number and we'll arrange a free replacement or refund right away. ^EF",,100302,wrong_item
+100304,cust4249,True,Sun Mar 03 04:04:00 +0000 2024,"@AmazonHelp great service today, appreciate the quick help.",100305,,general_praise
+100305,115911,False,Sun Mar 03 04:31:00 +0000 2024,"Thank you so much for the kind words, glad we could help! 😊 ^ST",,100304,general_praise
+100306,cust5941,True,Sun Mar 03 04:21:00 +0000 2024,"Just want to say @AmazonHelp support fixed my issue with order 206851 super fast, thank you!",100307,,general_praise
+100307,115911,False,Sun Mar 03 08:06:00 +0000 2024,"Thank you so much for the kind words, glad we could help! 😊 ^ST",,100306,general_praise
+100308,cust1672,True,Sun Mar 03 04:38:00 +0000 2024,"Just want to say @AmazonHelp support fixed my issue with order 934904 super fast, thank you!",100309,,general_praise
+100309,115911,False,Sun Mar 03 06:14:00 +0000 2024,"Thank you so much for the kind words, glad we could help! 😊 ^ST",,100308,general_praise
+100310,cust7071,True,Sun Mar 03 04:55:00 +0000 2024,@AmazonHelp not okay that 793655 was cheaper for Prime members and I wasn't told.,100311,,price_complaint
+100311,115911,False,Sun Mar 03 05:20:00 +0000 2024,We understand the frustration. Please DM your order number so we can review pricing/eligibility for a price adjustment. ^QR,,100310,price_complaint
+100312,cust7882,True,Sun Mar 03 05:12:00 +0000 2024,@AmazonHelp not okay that 113266 was cheaper for Prime members and I wasn't told.,100313,,price_complaint
+100313,115911,False,Sun Mar 03 08:50:00 +0000 2024,We understand the frustration. Please DM your order number so we can review pricing/eligibility for a price adjustment. ^QR,,100312,price_complaint
+100314,cust6934,True,Sun Mar 03 05:29:00 +0000 2024,"@AmazonHelp I was charged twice for order 554582, please fix this.",100315,,payment_issue
+100315,115911,False,Sun Mar 03 08:19:00 +0000 2024,Sorry about that! Please DM your order number so we can review the charges and issue a correction if needed. ^OP,,100314,payment_issue
+100316,cust8135,True,Sun Mar 03 05:46:00 +0000 2024,Being charged for an order 260422 I never placed @AmazonHelp.,100317,,payment_issue
+100317,115911,False,Sun Mar 03 06:39:00 +0000 2024,Sorry about that! Please DM your order number so we can review the charges and issue a correction if needed. ^OP,,100316,payment_issue
+100318,cust9817,True,Sun Mar 03 06:03:00 +0000 2024,@AmazonHelp not okay that 745830 was cheaper for Prime members and I wasn't told.,100319,,price_complaint
+100319,115911,False,Sun Mar 03 09:29:00 +0000 2024,We understand the frustration. Please DM your order number so we can review pricing/eligibility for a price adjustment. ^QR,,100318,price_complaint
+100320,cust5397,True,Sun Mar 03 06:20:00 +0000 2024,@AmazonHelp payment failed but money was deducted for 556732.,100321,,payment_issue
+100321,115911,False,Sun Mar 03 07:50:00 +0000 2024,Sorry about that! Please DM your order number so we can review the charges and issue a correction if needed. ^OP,,100320,payment_issue
+100322,cust8385,True,Sun Mar 03 06:37:00 +0000 2024,"@AmazonHelp I returned item from order 392477 two weeks ago, still no refund.",100323,,refund_request
+100323,115911,False,Sun Mar 03 07:47:00 +0000 2024,Sorry for the delay on your refund. Refunds typically take 3-5 business days once processed. Please DM your order number so we can check the status. ^GH,,100322,refund_request
+100324,cust7209,True,Sun Mar 03 06:54:00 +0000 2024,Being charged for an order 739979 I never placed @AmazonHelp.,100325,,payment_issue
+100325,115911,False,Sun Mar 03 08:28:00 +0000 2024,Sorry about that! Please DM your order number so we can review the charges and issue a correction if needed. ^OP,,100324,payment_issue
+100326,cust6325,True,Sun Mar 03 07:11:00 +0000 2024,@AmazonHelp can you tell me the status of order 992288? Tracking hasn't updated in 3 days.,100327,,where_is_my_order
+100327,115911,False,Sun Mar 03 08:05:00 +0000 2024,"Hi, sorry for the wait! Please send us your order number via DM so we can check the latest tracking status for you. ^AB",,100326,where_is_my_order
+100328,cust5232,True,Sun Mar 03 07:28:00 +0000 2024,"@AmazonHelp I was charged twice for order 472060, please fix this.",100329,,payment_issue
+100329,115911,False,Sun Mar 03 09:03:00 +0000 2024,Sorry about that! Please DM your order number so we can review the charges and issue a correction if needed. ^OP,,100328,payment_issue
+100330,cust5526,True,Sun Mar 03 07:45:00 +0000 2024,"@AmazonHelp please cancel order 835244, found it cheaper elsewhere.",100331,,order_cancel
+100331,115911,False,Sun Mar 03 10:15:00 +0000 2024,We can help with that. Please DM your order number right away — if it hasn't shipped yet we can cancel it for you. ^IJ,,100330,order_cancel
+100332,cust2402,True,Sun Mar 03 08:02:00 +0000 2024,"Still no sign of my package, order 300337. @AmazonHelp any update?",100333,,where_is_my_order
+100333,115911,False,Sun Mar 03 09:11:00 +0000 2024,"Hi, sorry for the wait! Please send us your order number via DM so we can check the latest tracking status for you. ^AB",,100332,where_is_my_order
+100334,cust4937,True,Sun Mar 03 08:19:00 +0000 2024,"Product from 682144 stopped working after 2 days, @AmazonHelp this is unacceptable.",100335,,product_defect
+100335,115911,False,Sun Mar 03 11:23:00 +0000 2024,"We're sorry to hear that. Please DM your order number and a photo if possible, and we'll get a replacement sent out. ^MN",,100334,product_defect
+100336,cust9041,True,Sun Mar 03 08:36:00 +0000 2024,Being charged for an order 846420 I never placed @AmazonHelp.,100337,,payment_issue
+100337,115911,False,Sun Mar 03 10:38:00 +0000 2024,Sorry about that! Please DM your order number so we can review the charges and issue a correction if needed. ^OP,,100336,payment_issue
+100338,cust4630,True,Sun Mar 03 08:53:00 +0000 2024,Hi @AmazonHelp where is my order #408528? Been waiting 6 days now.,100339,,where_is_my_order
+100339,115911,False,Sun Mar 03 10:44:00 +0000 2024,"Hi, sorry for the wait! Please send us your order number via DM so we can check the latest tracking status for you. ^AB",,100338,where_is_my_order
+100340,cust7046,True,Sun Mar 03 09:10:00 +0000 2024,Where's my refund for order 796212? @AmazonHelp it's been 10 business days.,100341,,refund_request
+100341,115911,False,Sun Mar 03 11:19:00 +0000 2024,Sorry for the delay on your refund. Refunds typically take 3-5 business days once processed. Please DM your order number so we can check the status. ^GH,,100340,refund_request
+100342,cust6419,True,Sun Mar 03 09:27:00 +0000 2024,@AmazonHelp not okay that 546173 was cheaper for Prime members and I wasn't told.,100343,,price_complaint
+100343,115911,False,Sun Mar 03 11:05:00 +0000 2024,We understand the frustration. Please DM your order number so we can review pricing/eligibility for a price adjustment. ^QR,,100342,price_complaint
+100344,cust5118,True,Sun Mar 03 09:44:00 +0000 2024,@AmazonHelp payment failed but money was deducted for 421517.,100345,,payment_issue
+100345,115911,False,Sun Mar 03 10:51:00 +0000 2024,Sorry about that! Please DM your order number so we can review the charges and issue a correction if needed. ^OP,,100344,payment_issue
+100346,cust6169,True,Sun Mar 03 10:01:00 +0000 2024,"@AmazonHelp delivery for 301939 delayed again, no notification sent either.",100347,,delivery_delay
+100347,115911,False,Sun Mar 03 10:39:00 +0000 2024,We're sorry your delivery is delayed. Could you DM us the order number so we can escalate with the carrier and get you an updated ETA? ^CD,,100346,delivery_delay
+100348,cust4545,True,Sun Mar 03 10:18:00 +0000 2024,@AmazonHelp why did the price of my item drop $20 right after I bought it (300845)?,100349,,price_complaint
+100349,115911,False,Sun Mar 03 13:35:00 +0000 2024,We understand the frustration. Please DM your order number so we can review pricing/eligibility for a price adjustment. ^QR,,100348,price_complaint
+100350,cust9595,True,Sun Mar 03 10:35:00 +0000 2024,@AmazonHelp payment failed but money was deducted for 859782.,100351,,payment_issue
+100351,115911,False,Sun Mar 03 13:15:00 +0000 2024,Sorry about that! Please DM your order number so we can review the charges and issue a correction if needed. ^OP,,100350,payment_issue
+100352,cust4180,True,Sun Mar 03 10:52:00 +0000 2024,"@AmazonHelp I need to cancel order 973074 immediately, ordered by mistake.",100353,,order_cancel
+100353,115911,False,Sun Mar 03 12:15:00 +0000 2024,We can help with that. Please DM your order number right away — if it hasn't shipped yet we can cancel it for you. ^IJ,,100352,order_cancel
+100354,cust5952,True,Sun Mar 03 11:09:00 +0000 2024,Where's my refund for order 288158? @AmazonHelp it's been 10 business days.,100355,,refund_request
+100355,115911,False,Sun Mar 03 11:20:00 +0000 2024,Sorry for the delay on your refund. Refunds typically take 3-5 business days once processed. Please DM your order number so we can check the status. ^GH,,100354,refund_request
+100356,cust1745,True,Sun Mar 03 11:26:00 +0000 2024,@AmazonHelp why did the price of my item drop $20 right after I bought it (387636)?,100357,,price_complaint
+100357,115911,False,Sun Mar 03 11:47:00 +0000 2024,We understand the frustration. Please DM your order number so we can review pricing/eligibility for a price adjustment. ^QR,,100356,price_complaint
+100358,cust3068,True,Sun Mar 03 11:43:00 +0000 2024,@AmazonHelp not okay that 831295 was cheaper for Prime members and I wasn't told.,100359,,price_complaint
+100359,115911,False,Sun Mar 03 14:34:00 +0000 2024,We understand the frustration. Please DM your order number so we can review pricing/eligibility for a price adjustment. ^QR,,100358,price_complaint
+100360,cust5658,True,Sun Mar 03 12:00:00 +0000 2024,"@AmazonHelp I was charged twice for order 112861, please fix this.",100361,,payment_issue
+100361,115911,False,Sun Mar 03 14:08:00 +0000 2024,Sorry about that! Please DM your order number so we can review the charges and issue a correction if needed. ^OP,,100360,payment_issue
+100362,cust4020,True,Sun Mar 03 12:17:00 +0000 2024,@AmazonHelp payment failed but money was deducted for 457256.,100363,,payment_issue
+100363,115911,False,Sun Mar 03 12:38:00 +0000 2024,Sorry about that! Please DM your order number so we can review the charges and issue a correction if needed. ^OP,,100362,payment_issue
+100364,cust2070,True,Sun Mar 03 12:34:00 +0000 2024,Can someone cancel 219629? @AmazonHelp it hasn't shipped yet I hope.,100365,,order_cancel
+100365,115911,False,Sun Mar 03 14:24:00 +0000 2024,We can help with that. Please DM your order number right away — if it hasn't shipped yet we can cancel it for you. ^IJ,,100364,order_cancel
+100366,cust1878,True,Sun Mar 03 12:51:00 +0000 2024,"@AmazonHelp I was charged twice for order 705050, please fix this.",100367,,payment_issue
+100367,115911,False,Sun Mar 03 13:37:00 +0000 2024,Sorry about that! Please DM your order number so we can review the charges and issue a correction if needed. ^OP,,100366,payment_issue
+100368,cust2395,True,Sun Mar 03 13:08:00 +0000 2024,@AmazonHelp order 418594 arrived but it's not what I ordered at all.,100369,,wrong_item
+100369,115911,False,Sun Mar 03 14:19:00 +0000 2024,"That's definitely not right, we apologize. Please DM your order number and we'll arrange a free replacement or refund right away. ^EF",,100368,wrong_item
+100370,cust7818,True,Sun Mar 03 13:25:00 +0000 2024,"@AmazonHelp delivery for 901577 delayed again, no notification sent either.",100371,,delivery_delay
+100371,115911,False,Sun Mar 03 16:08:00 +0000 2024,We're sorry your delivery is delayed. Could you DM us the order number so we can escalate with the carrier and get you an updated ETA? ^CD,,100370,delivery_delay
+100372,cust9561,True,Sun Mar 03 13:42:00 +0000 2024,"Just want to say @AmazonHelp support fixed my issue with order 913373 super fast, thank you!",100373,,general_praise
+100373,115911,False,Sun Mar 03 15:27:00 +0000 2024,"Thank you so much for the kind words, glad we could help! 😊 ^ST",,100372,general_praise
+100374,cust8025,True,Sun Mar 03 13:59:00 +0000 2024,@AmazonHelp payment failed but money was deducted for 411797.,100375,,payment_issue
+100375,115911,False,Sun Mar 03 15:25:00 +0000 2024,Sorry about that! Please DM your order number so we can review the charges and issue a correction if needed. ^OP,,100374,payment_issue
+100376,cust2625,True,Sun Mar 03 14:16:00 +0000 2024,"Just want to say @AmazonHelp support fixed my issue with order 739244 super fast, thank you!",100377,,general_praise
+100377,115911,False,Sun Mar 03 17:39:00 +0000 2024,"Thank you so much for the kind words, glad we could help! 😊 ^ST",,100376,general_praise
+100378,cust5335,True,Sun Mar 03 14:33:00 +0000 2024,"@AmazonHelp requesting a refund on 321275, product was damaged on arrival.",100379,,refund_request
+100379,115911,False,Sun Mar 03 17:30:00 +0000 2024,Sorry for the delay on your refund. Refunds typically take 3-5 business days once processed. Please DM your order number so we can check the status. ^GH,,100378,refund_request
+100380,cust3847,True,Sun Mar 03 14:50:00 +0000 2024,@AmazonHelp my order 351516 was supposed to arrive yesterday and it's still not here.,100381,,delivery_delay
+100381,115911,False,Sun Mar 03 17:19:00 +0000 2024,We're sorry your delivery is delayed. Could you DM us the order number so we can escalate with the carrier and get you an updated ETA? ^CD,,100380,delivery_delay
+100382,cust7693,True,Sun Mar 03 15:07:00 +0000 2024,@AmazonHelp my order 102805 was supposed to arrive yesterday and it's still not here.,100383,,delivery_delay
+100383,115911,False,Sun Mar 03 17:10:00 +0000 2024,We're sorry your delivery is delayed. Could you DM us the order number so we can escalate with the carrier and get you an updated ETA? ^CD,,100382,delivery_delay
+100384,cust1534,True,Sun Mar 03 15:24:00 +0000 2024,"@AmazonHelp great service today, appreciate the quick help.",100385,,general_praise
+100385,115911,False,Sun Mar 03 16:31:00 +0000 2024,"Thank you so much for the kind words, glad we could help! 😊 ^ST",,100384,general_praise
+100386,cust8438,True,Sun Mar 03 15:41:00 +0000 2024,"@AmazonHelp please cancel order 396451, found it cheaper elsewhere.",100387,,order_cancel
+100387,115911,False,Sun Mar 03 16:07:00 +0000 2024,We can help with that. Please DM your order number right away — if it hasn't shipped yet we can cancel it for you. ^IJ,,100386,order_cancel
+100388,cust4241,True,Sun Mar 03 15:58:00 +0000 2024,Where's my refund for order 926097? @AmazonHelp it's been 10 business days.,100389,,refund_request
+100389,115911,False,Sun Mar 03 17:54:00 +0000 2024,Sorry for the delay on your refund. Refunds typically take 3-5 business days once processed. Please DM your order number so we can check the status. ^GH,,100388,refund_request
+100390,cust3441,True,Sun Mar 03 16:15:00 +0000 2024,"@AmazonHelp delivery for 335729 delayed again, no notification sent either.",100391,,delivery_delay
+100391,115911,False,Sun Mar 03 20:15:00 +0000 2024,We're sorry your delivery is delayed. Could you DM us the order number so we can escalate with the carrier and get you an updated ETA? ^CD,,100390,delivery_delay
+100392,cust1977,True,Sun Mar 03 16:32:00 +0000 2024,"@AmazonHelp I need to cancel order 174878 immediately, ordered by mistake.",100393,,order_cancel
+100393,115911,False,Sun Mar 03 17:22:00 +0000 2024,We can help with that. Please DM your order number right away — if it hasn't shipped yet we can cancel it for you. ^IJ,,100392,order_cancel
+100394,cust5728,True,Sun Mar 03 16:49:00 +0000 2024,"@AmazonHelp please cancel order 885339, found it cheaper elsewhere.",100395,,order_cancel
+100395,115911,False,Sun Mar 03 18:49:00 +0000 2024,We can help with that. Please DM your order number right away — if it hasn't shipped yet we can cancel it for you. ^IJ,,100394,order_cancel
+100396,cust5982,True,Sun Mar 03 17:06:00 +0000 2024,This is the second time my delivery for 822131 has been delayed. @AmazonHelp not happy.,100397,,delivery_delay
+100397,115911,False,Sun Mar 03 20:13:00 +0000 2024,We're sorry your delivery is delayed. Could you DM us the order number so we can escalate with the carrier and get you an updated ETA? ^CD,,100396,delivery_delay
+100398,cust9847,True,Sun Mar 03 17:23:00 +0000 2024,"Product from 624783 stopped working after 2 days, @AmazonHelp this is unacceptable.",100399,,product_defect
+100399,115911,False,Sun Mar 03 19:37:00 +0000 2024,"We're sorry to hear that. Please DM your order number and a photo if possible, and we'll get a replacement sent out. ^MN",,100398,product_defect
+100400,cust1653,True,Sun Mar 03 17:40:00 +0000 2024,"@AmazonHelp I was charged twice for order 727086, please fix this.",100401,,payment_issue
+100401,115911,False,Sun Mar 03 21:35:00 +0000 2024,Sorry about that! Please DM your order number so we can review the charges and issue a correction if needed. ^OP,,100400,payment_issue
+100402,cust5102,True,Sun Mar 03 17:57:00 +0000 2024,"@AmazonHelp defective unit received, order 437978, needs replacement.",100403,,product_defect
+100403,115911,False,Sun Mar 03 18:11:00 +0000 2024,"We're sorry to hear that. Please DM your order number and a photo if possible, and we'll get a replacement sent out. ^MN",,100402,product_defect
+100404,cust1339,True,Sun Mar 03 18:14:00 +0000 2024,@AmazonHelp my order 807053 was supposed to arrive yesterday and it's still not here.,100405,,delivery_delay
+100405,115911,False,Sun Mar 03 21:37:00 +0000 2024,We're sorry your delivery is delayed. Could you DM us the order number so we can escalate with the carrier and get you an updated ETA? ^CD,,100404,delivery_delay
+100406,cust3870,True,Sun Mar 03 18:31:00 +0000 2024,"@AmazonHelp please cancel order 142185, found it cheaper elsewhere.",100407,,order_cancel
+100407,115911,False,Sun Mar 03 20:39:00 +0000 2024,We can help with that. Please DM your order number right away — if it hasn't shipped yet we can cancel it for you. ^IJ,,100406,order_cancel
+100408,cust3973,True,Sun Mar 03 18:48:00 +0000 2024,@AmazonHelp not okay that 391668 was cheaper for Prime members and I wasn't told.,100409,,price_complaint
+100409,115911,False,Sun Mar 03 21:25:00 +0000 2024,We understand the frustration. Please DM your order number so we can review pricing/eligibility for a price adjustment. ^QR,,100408,price_complaint
+100410,cust9056,True,Sun Mar 03 19:05:00 +0000 2024,"@AmazonHelp defective unit received, order 953797, needs replacement.",100411,,product_defect
+100411,115911,False,Sun Mar 03 19:36:00 +0000 2024,"We're sorry to hear that. Please DM your order number and a photo if possible, and we'll get a replacement sent out. ^MN",,100410,product_defect
+100412,cust6460,True,Sun Mar 03 19:22:00 +0000 2024,@AmazonHelp payment failed but money was deducted for 528184.,100413,,payment_issue
+100413,115911,False,Sun Mar 03 20:52:00 +0000 2024,Sorry about that! Please DM your order number so we can review the charges and issue a correction if needed. ^OP,,100412,payment_issue
+100414,cust7744,True,Sun Mar 03 19:39:00 +0000 2024,@AmazonHelp my order 445824 was supposed to arrive yesterday and it's still not here.,100415,,delivery_delay
+100415,115911,False,Sun Mar 03 22:44:00 +0000 2024,We're sorry your delivery is delayed. Could you DM us the order number so we can escalate with the carrier and get you an updated ETA? ^CD,,100414,delivery_delay
+100416,cust7561,True,Sun Mar 03 19:56:00 +0000 2024,@AmazonHelp payment failed but money was deducted for 794769.,100417,,payment_issue
+100417,115911,False,Sun Mar 03 23:32:00 +0000 2024,Sorry about that! Please DM your order number so we can review the charges and issue a correction if needed. ^OP,,100416,payment_issue
+100418,cust2442,True,Sun Mar 03 20:13:00 +0000 2024,@AmazonHelp why did the price of my item drop $20 right after I bought it (576919)?,100419,,price_complaint
+100419,115911,False,Sun Mar 03 21:41:00 +0000 2024,We understand the frustration. Please DM your order number so we can review pricing/eligibility for a price adjustment. ^QR,,100418,price_complaint
+100420,cust7622,True,Sun Mar 03 20:30:00 +0000 2024,Can someone cancel 221552? @AmazonHelp it hasn't shipped yet I hope.,100421,,order_cancel
+100421,115911,False,Mon Mar 04 00:19:00 +0000 2024,We can help with that. Please DM your order number right away — if it hasn't shipped yet we can cancel it for you. ^IJ,,100420,order_cancel
+100422,cust9889,True,Sun Mar 03 20:47:00 +0000 2024,@AmazonHelp why did the price of my item drop $20 right after I bought it (789606)?,100423,,price_complaint
+100423,115911,False,Sun Mar 03 22:53:00 +0000 2024,We understand the frustration. Please DM your order number so we can review pricing/eligibility for a price adjustment. ^QR,,100422,price_complaint
+100424,cust9494,True,Sun Mar 03 21:04:00 +0000 2024,@AmazonHelp the item from order 296694 arrived broken/defective.,100425,,product_defect
+100425,115911,False,Sun Mar 03 22:44:00 +0000 2024,"We're sorry to hear that. Please DM your order number and a photo if possible, and we'll get a replacement sent out. ^MN",,100424,product_defect
+100426,cust8242,True,Sun Mar 03 21:21:00 +0000 2024,"@AmazonHelp great service today, appreciate the quick help.",100427,,general_praise
+100427,115911,False,Mon Mar 04 00:43:00 +0000 2024,"Thank you so much for the kind words, glad we could help! 😊 ^ST",,100426,general_praise
+100428,cust9998,True,Sun Mar 03 21:38:00 +0000 2024,Hi @AmazonHelp where is my order #380028? Been waiting 6 days now.,100429,,where_is_my_order
+100429,115911,False,Sun Mar 03 22:19:00 +0000 2024,"Hi, sorry for the wait! Please send us your order number via DM so we can check the latest tracking status for you. ^AB",,100428,where_is_my_order
+100430,cust8941,True,Sun Mar 03 21:55:00 +0000 2024,Can someone cancel 832168? @AmazonHelp it hasn't shipped yet I hope.,100431,,order_cancel
+100431,115911,False,Sun Mar 03 22:34:00 +0000 2024,We can help with that. Please DM your order number right away — if it hasn't shipped yet we can cancel it for you. ^IJ,,100430,order_cancel
+100432,cust4920,True,Sun Mar 03 22:12:00 +0000 2024,"Still no sign of my package, order 738448. @AmazonHelp any update?",100433,,where_is_my_order
+100433,115911,False,Mon Mar 04 01:21:00 +0000 2024,"Hi, sorry for the wait! Please send us your order number via DM so we can check the latest tracking status for you. ^AB",,100432,where_is_my_order
+100434,cust1224,True,Sun Mar 03 22:29:00 +0000 2024,"Got the completely wrong item for order 677596 @AmazonHelp, this is frustrating.",100435,,wrong_item
+100435,115911,False,Mon Mar 04 00:58:00 +0000 2024,"That's definitely not right, we apologize. Please DM your order number and we'll arrange a free replacement or refund right away. ^EF",,100434,wrong_item
+100436,cust2858,True,Sun Mar 03 22:46:00 +0000 2024,@AmazonHelp the item from order 335615 arrived broken/defective.,100437,,product_defect
+100437,115911,False,Mon Mar 04 00:52:00 +0000 2024,"We're sorry to hear that. Please DM your order number and a photo if possible, and we'll get a replacement sent out. ^MN",,100436,product_defect
+100438,cust3522,True,Sun Mar 03 23:03:00 +0000 2024,"@AmazonHelp delivery for 972565 delayed again, no notification sent either.",100439,,delivery_delay
+100439,115911,False,Mon Mar 04 01:18:00 +0000 2024,We're sorry your delivery is delayed. Could you DM us the order number so we can escalate with the carrier and get you an updated ETA? ^CD,,100438,delivery_delay
+100440,cust5479,True,Sun Mar 03 23:20:00 +0000 2024,"@AmazonHelp please cancel order 839677, found it cheaper elsewhere.",100441,,order_cancel
+100441,115911,False,Mon Mar 04 01:14:00 +0000 2024,We can help with that. Please DM your order number right away — if it hasn't shipped yet we can cancel it for you. ^IJ,,100440,order_cancel
+100442,cust8483,True,Sun Mar 03 23:37:00 +0000 2024,@AmazonHelp payment failed but money was deducted for 355570.,100443,,payment_issue
+100443,115911,False,Mon Mar 04 02:06:00 +0000 2024,Sorry about that! Please DM your order number so we can review the charges and issue a correction if needed. ^OP,,100442,payment_issue
+100444,cust9327,True,Sun Mar 03 23:54:00 +0000 2024,"Got the completely wrong item for order 299869 @AmazonHelp, this is frustrating.",100445,,wrong_item
+100445,115911,False,Mon Mar 04 03:13:00 +0000 2024,"That's definitely not right, we apologize. Please DM your order number and we'll arrange a free replacement or refund right away. ^EF",,100444,wrong_item
+100446,cust7798,True,Mon Mar 04 00:11:00 +0000 2024,@AmazonHelp I ordered a blue jacket but received a pair of shoes instead. Order 389666.,100447,,wrong_item
+100447,115911,False,Mon Mar 04 01:46:00 +0000 2024,"That's definitely not right, we apologize. Please DM your order number and we'll arrange a free replacement or refund right away. ^EF",,100446,wrong_item
+100448,cust1042,True,Mon Mar 04 00:28:00 +0000 2024,@AmazonHelp not okay that 960408 was cheaper for Prime members and I wasn't told.,100449,,price_complaint
+100449,115911,False,Mon Mar 04 01:48:00 +0000 2024,We understand the frustration. Please DM your order number so we can review pricing/eligibility for a price adjustment. ^QR,,100448,price_complaint
+100450,cust9022,True,Mon Mar 04 00:45:00 +0000 2024,"@AmazonHelp please cancel order 708093, found it cheaper elsewhere.",100451,,order_cancel
+100451,115911,False,Mon Mar 04 04:34:00 +0000 2024,We can help with that. Please DM your order number right away — if it hasn't shipped yet we can cancel it for you. ^IJ,,100450,order_cancel
+100452,cust8935,True,Mon Mar 04 01:02:00 +0000 2024,"Got the completely wrong item for order 664742 @AmazonHelp, this is frustrating.",100453,,wrong_item
+100453,115911,False,Mon Mar 04 02:38:00 +0000 2024,"That's definitely not right, we apologize. Please DM your order number and we'll arrange a free replacement or refund right away. ^EF",,100452,wrong_item
+100454,cust9903,True,Mon Mar 04 01:19:00 +0000 2024,"Account issue again @AmazonHelp, 2FA code never arrives.",100455,,login_account_issue
+100455,115911,False,Mon Mar 04 03:03:00 +0000 2024,Sorry you're having trouble logging in. Please DM us the email on the account (not the password) so we can look into this securely. ^KL,,100454,login_account_issue
+100456,cust4912,True,Mon Mar 04 01:36:00 +0000 2024,@AmazonHelp payment failed but money was deducted for 297816.,100457,,payment_issue
+100457,115911,False,Mon Mar 04 04:10:00 +0000 2024,Sorry about that! Please DM your order number so we can review the charges and issue a correction if needed. ^OP,,100456,payment_issue
+100458,cust7730,True,Mon Mar 04 01:53:00 +0000 2024,@AmazonHelp the item from order 997594 arrived broken/defective.,100459,,product_defect
+100459,115911,False,Mon Mar 04 02:12:00 +0000 2024,"We're sorry to hear that. Please DM your order number and a photo if possible, and we'll get a replacement sent out. ^MN",,100458,product_defect
+100460,cust7246,True,Mon Mar 04 02:10:00 +0000 2024,"Account issue again @AmazonHelp, 2FA code never arrives.",100461,,login_account_issue
+100461,115911,False,Mon Mar 04 03:56:00 +0000 2024,Sorry you're having trouble logging in. Please DM us the email on the account (not the password) so we can look into this securely. ^KL,,100460,login_account_issue
+100462,cust3068,True,Mon Mar 04 02:27:00 +0000 2024,"Got the completely wrong item for order 138817 @AmazonHelp, this is frustrating.",100463,,wrong_item
+100463,115911,False,Mon Mar 04 04:43:00 +0000 2024,"That's definitely not right, we apologize. Please DM your order number and we'll arrange a free replacement or refund right away. ^EF",,100462,wrong_item
+100464,cust8213,True,Mon Mar 04 02:44:00 +0000 2024,"@AmazonHelp great service today, appreciate the quick help.",100465,,general_praise
+100465,115911,False,Mon Mar 04 03:17:00 +0000 2024,"Thank you so much for the kind words, glad we could help! 😊 ^ST",,100464,general_praise
+100466,cust3361,True,Mon Mar 04 03:01:00 +0000 2024,@AmazonHelp not okay that 116093 was cheaper for Prime members and I wasn't told.,100467,,price_complaint
+100467,115911,False,Mon Mar 04 04:53:00 +0000 2024,We understand the frustration. Please DM your order number so we can review pricing/eligibility for a price adjustment. ^QR,,100466,price_complaint
+100468,cust5342,True,Mon Mar 04 03:18:00 +0000 2024,@AmazonHelp I ordered a blue jacket but received a pair of shoes instead. Order 592296.,100469,,wrong_item
+100469,115911,False,Mon Mar 04 04:52:00 +0000 2024,"That's definitely not right, we apologize. Please DM your order number and we'll arrange a free replacement or refund right away. ^EF",,100468,wrong_item
+100470,cust2315,True,Mon Mar 04 03:35:00 +0000 2024,"@AmazonHelp great service today, appreciate the quick help.",100471,,general_praise
+100471,115911,False,Mon Mar 04 07:21:00 +0000 2024,"Thank you so much for the kind words, glad we could help! 😊 ^ST",,100470,general_praise
+100472,cust7226,True,Mon Mar 04 03:52:00 +0000 2024,"Account issue again @AmazonHelp, 2FA code never arrives.",100473,,login_account_issue
+100473,115911,False,Mon Mar 04 05:21:00 +0000 2024,Sorry you're having trouble logging in. Please DM us the email on the account (not the password) so we can look into this securely. ^KL,,100472,login_account_issue
+100474,cust2121,True,Mon Mar 04 04:09:00 +0000 2024,Being charged for an order 137642 I never placed @AmazonHelp.,100475,,payment_issue
+100475,115911,False,Mon Mar 04 05:17:00 +0000 2024,Sorry about that! Please DM your order number so we can review the charges and issue a correction if needed. ^OP,,100474,payment_issue
+100476,cust2480,True,Mon Mar 04 04:26:00 +0000 2024,"@AmazonHelp I need to cancel order 883041 immediately, ordered by mistake.",100477,,order_cancel
+100477,115911,False,Mon Mar 04 06:25:00 +0000 2024,We can help with that. Please DM your order number right away — if it hasn't shipped yet we can cancel it for you. ^IJ,,100476,order_cancel
+100478,cust2646,True,Mon Mar 04 04:43:00 +0000 2024,"@AmazonHelp delivery for 838083 delayed again, no notification sent either.",100479,,delivery_delay
+100479,115911,False,Mon Mar 04 06:44:00 +0000 2024,We're sorry your delivery is delayed. Could you DM us the order number so we can escalate with the carrier and get you an updated ETA? ^CD,,100478,delivery_delay
+100480,cust1474,True,Mon Mar 04 05:00:00 +0000 2024,@AmazonHelp order 414012 arrived but it's not what I ordered at all.,100481,,wrong_item
+100481,115911,False,Mon Mar 04 05:19:00 +0000 2024,"That's definitely not right, we apologize. Please DM your order number and we'll arrange a free replacement or refund right away. ^EF",,100480,wrong_item
+100482,cust6873,True,Mon Mar 04 05:17:00 +0000 2024,"@AmazonHelp I can't log into my account, keeps saying invalid password even after reset.",100483,,login_account_issue
+100483,115911,False,Mon Mar 04 07:00:00 +0000 2024,Sorry you're having trouble logging in. Please DM us the email on the account (not the password) so we can look into this securely. ^KL,,100482,login_account_issue
+100484,cust9702,True,Mon Mar 04 05:34:00 +0000 2024,@AmazonHelp the item from order 356059 arrived broken/defective.,100485,,product_defect
+100485,115911,False,Mon Mar 04 07:27:00 +0000 2024,"We're sorry to hear that. Please DM your order number and a photo if possible, and we'll get a replacement sent out. ^MN",,100484,product_defect
+100486,cust3868,True,Mon Mar 04 05:51:00 +0000 2024,"Just want to say @AmazonHelp support fixed my issue with order 278240 super fast, thank you!",100487,,general_praise
+100487,115911,False,Mon Mar 04 06:19:00 +0000 2024,"Thank you so much for the kind words, glad we could help! 😊 ^ST",,100486,general_praise
+100488,cust4945,True,Mon Mar 04 06:08:00 +0000 2024,"@AmazonHelp great service today, appreciate the quick help.",100489,,general_praise
+100489,115911,False,Mon Mar 04 08:23:00 +0000 2024,"Thank you so much for the kind words, glad we could help! 😊 ^ST",,100488,general_praise
+100490,cust8555,True,Mon Mar 04 06:25:00 +0000 2024,"Just want to say @AmazonHelp support fixed my issue with order 343467 super fast, thank you!",100491,,general_praise
+100491,115911,False,Mon Mar 04 09:16:00 +0000 2024,"Thank you so much for the kind words, glad we could help! 😊 ^ST",,100490,general_praise
+100492,cust1153,True,Mon Mar 04 06:42:00 +0000 2024,Can someone cancel 367729? @AmazonHelp it hasn't shipped yet I hope.,100493,,order_cancel
+100493,115911,False,Mon Mar 04 10:40:00 +0000 2024,We can help with that. Please DM your order number right away — if it hasn't shipped yet we can cancel it for you. ^IJ,,100492,order_cancel
+100494,cust9955,True,Mon Mar 04 06:59:00 +0000 2024,@AmazonHelp payment failed but money was deducted for 810526.,100495,,payment_issue
+100495,115911,False,Mon Mar 04 07:47:00 +0000 2024,Sorry about that! Please DM your order number so we can review the charges and issue a correction if needed. ^OP,,100494,payment_issue
+100496,cust5901,True,Mon Mar 04 07:16:00 +0000 2024,This is the second time my delivery for 462351 has been delayed. @AmazonHelp not happy.,100497,,delivery_delay
+100497,115911,False,Mon Mar 04 10:07:00 +0000 2024,We're sorry your delivery is delayed. Could you DM us the order number so we can escalate with the carrier and get you an updated ETA? ^CD,,100496,delivery_delay
+100498,cust8484,True,Mon Mar 04 07:33:00 +0000 2024,"@AmazonHelp defective unit received, order 362246, needs replacement.",100499,,product_defect
+100499,115911,False,Mon Mar 04 11:17:00 +0000 2024,"We're sorry to hear that. Please DM your order number and a photo if possible, and we'll get a replacement sent out. ^MN",,100498,product_defect
+100500,cust8916,True,Mon Mar 04 07:50:00 +0000 2024,"@AmazonHelp I need to cancel order 503380 immediately, ordered by mistake.",100501,,order_cancel
+100501,115911,False,Mon Mar 04 08:25:00 +0000 2024,We can help with that. Please DM your order number right away — if it hasn't shipped yet we can cancel it for you. ^IJ,,100500,order_cancel
+100502,cust6881,True,Mon Mar 04 08:07:00 +0000 2024,Where's my refund for order 699704? @AmazonHelp it's been 10 business days.,100503,,refund_request
+100503,115911,False,Mon Mar 04 10:42:00 +0000 2024,Sorry for the delay on your refund. Refunds typically take 3-5 business days once processed. Please DM your order number so we can check the status. ^GH,,100502,refund_request
+100504,cust1359,True,Mon Mar 04 08:24:00 +0000 2024,"@AmazonHelp please cancel order 409571, found it cheaper elsewhere.",100505,,order_cancel
+100505,115911,False,Mon Mar 04 12:04:00 +0000 2024,We can help with that. Please DM your order number right away — if it hasn't shipped yet we can cancel it for you. ^IJ,,100504,order_cancel
+100506,cust1803,True,Mon Mar 04 08:41:00 +0000 2024,"Product from 108491 stopped working after 2 days, @AmazonHelp this is unacceptable.",100507,,product_defect
+100507,115911,False,Mon Mar 04 11:24:00 +0000 2024,"We're sorry to hear that. Please DM your order number and a photo if possible, and we'll get a replacement sent out. ^MN",,100506,product_defect
+100508,cust4770,True,Mon Mar 04 08:58:00 +0000 2024,@AmazonHelp payment failed but money was deducted for 913423.,100509,,payment_issue
+100509,115911,False,Mon Mar 04 11:41:00 +0000 2024,Sorry about that! Please DM your order number so we can review the charges and issue a correction if needed. ^OP,,100508,payment_issue
+100510,cust4115,True,Mon Mar 04 09:15:00 +0000 2024,"@AmazonHelp I can't log into my account, keeps saying invalid password even after reset.",100511,,login_account_issue
+100511,115911,False,Mon Mar 04 12:01:00 +0000 2024,Sorry you're having trouble logging in. Please DM us the email on the account (not the password) so we can look into this securely. ^KL,,100510,login_account_issue
+100512,cust3240,True,Mon Mar 04 09:32:00 +0000 2024,"@AmazonHelp please cancel order 892280, found it cheaper elsewhere.",100513,,order_cancel
+100513,115911,False,Mon Mar 04 12:20:00 +0000 2024,We can help with that. Please DM your order number right away — if it hasn't shipped yet we can cancel it for you. ^IJ,,100512,order_cancel
+100514,cust1645,True,Mon Mar 04 09:49:00 +0000 2024,"@AmazonHelp delivery for 777737 delayed again, no notification sent either.",100515,,delivery_delay
+100515,115911,False,Mon Mar 04 11:16:00 +0000 2024,We're sorry your delivery is delayed. Could you DM us the order number so we can escalate with the carrier and get you an updated ETA? ^CD,,100514,delivery_delay
+100516,cust6977,True,Mon Mar 04 10:06:00 +0000 2024,"@AmazonHelp I was charged twice for order 707727, please fix this.",100517,,payment_issue
+100517,115911,False,Mon Mar 04 13:21:00 +0000 2024,Sorry about that! Please DM your order number so we can review the charges and issue a correction if needed. ^OP,,100516,payment_issue
+100518,cust6352,True,Mon Mar 04 10:23:00 +0000 2024,@AmazonHelp I ordered a blue jacket but received a pair of shoes instead. Order 409445.,100519,,wrong_item
+100519,115911,False,Mon Mar 04 13:42:00 +0000 2024,"That's definitely not right, we apologize. Please DM your order number and we'll arrange a free replacement or refund right away. ^EF",,100518,wrong_item

@@ -1,0 +1,41 @@
+{
+  "trivial_baseline": {
+    "accuracy": 0.1,
+    "macro_f1": 0.018,
+    "used_real_llm": "n/a"
+  },
+  "tfidf_baseline": {
+    "accuracy": 0.9,
+    "macro_f1": 0.91,
+    "used_real_llm": "n/a"
+  },
+  "llm_or_keyword_fallback": {
+    "accuracy": 0.6,
+    "macro_f1": 0.58,
+    "used_real_llm": false
+  },
+  "escalation": {
+    "precision": 0.8,
+    "recall": 0.4,
+    "f1": 0.533,
+    "tp": 36,
+    "fp": 9,
+    "fn": 54,
+    "accuracy": 0.65
+  },
+  "reply_quality": {
+    "n_scored": 40,
+    "used_real_llm_judge": false,
+    "avg_grounded": 3.95,
+    "avg_correct": 5.0,
+    "avg_safe": 4.85,
+    "avg_tone": 5.0,
+    "avg_overall": 4.7
+  },
+  "judge_human_agreement": {
+    "n": 30,
+    "pearson_r": -0.077,
+    "pct_within_1_point": 0.733,
+    "NOTE": "PLACEHOLDER synthetic calibration set, not a real human rater. Replace eval/human_calibration.csv with real human scores before trusting this."
+  }
+}

@@ -1,0 +1,181 @@
+id,text,gold_intent,gold_escalation,label_note
+g900114,"@AmazonHelp need to cancel 723241, but it may have already shipped, not sure what to do.",order_cancel,AUTO_HANDLE,still routine despite ambiguity
+g900058,"@AmazonHelp why is Prime pricing different for the same item as last month, order 674351?",price_complaint,AUTO_HANDLE,routine pricing question
+g900172,"@AmazonHelp got a used/opened item marked as new, order 815887, that's basically fraud.",wrong_item,ESCALATE,'fraud' keyword triggers risk-language escalation
+g900133,"@AmazonHelp refund for 814328 finally came through, thanks!",refund_request,AUTO_HANDLE,"resolved/closed, informational only, tricky: intent is refund_request but nothing to action"
+g900115,"@AmazonHelp 2FA text never arrives, locked out for 2 days now, need this fixed today.",login_account_issue,ESCALATE,"account access, time pressure"
+g900009,"@AmazonHelp appreciate you guys fixing my order 483452 issue so fast, great support!",general_praise,AUTO_HANDLE,"no action needed, low risk"
+g900070,"@AmazonHelp where's my package, order 429407? no rush just curious on ETA.",where_is_my_order,AUTO_HANDLE,"low urgency phrasing, still same intent"
+g900110,"@AmazonHelp where's my package, order 428988? no rush just curious on ETA.",where_is_my_order,AUTO_HANDLE,"low urgency phrasing, still same intent"
+g900008,"@AmazonHelp saw the same item $30 cheaper today than when I bought it last week, order 198702.",price_complaint,AUTO_HANDLE,routine price-match ask
+g900171,"@AmazonHelp order 476198 4 days late now, missed my kid's birthday because of it.",delivery_delay,ESCALATE,"emotionally high-stakes context, judgment call"
+g900118,"@AmazonHelp why is Prime pricing different for the same item as last month, order 578365?",price_complaint,AUTO_HANDLE,routine pricing question
+g900148,"@AmazonHelp saw the same item $30 cheaper today than when I bought it last week, order 161818.",price_complaint,AUTO_HANDLE,routine price-match ask
+g900040,@AmazonHelp any update on order 403677? placed it 5 days ago and tracking is frozen.,where_is_my_order,AUTO_HANDLE,clean informational request
+g900050,"@AmazonHelp where's my package, order 289505? no rush just curious on ETA.",where_is_my_order,AUTO_HANDLE,"low urgency phrasing, still same intent"
+g900105,"@AmazonHelp I can't log in, it says my account may have been compromised.",login_account_issue,ESCALATE,account security -> policy escalation
+g900016,@AmazonHelp lamp from order 554710 arrived with a cracked base.,product_defect,AUTO_HANDLE,"ordinary defect, matches historical grounded case"
+g900036,@AmazonHelp lamp from order 331821 arrived with a cracked base.,product_defect,AUTO_HANDLE,"ordinary defect, matches historical grounded case"
+g900132,"@AmazonHelp got a used/opened item marked as new, order 706020, that's basically fraud.",wrong_item,ESCALATE,'fraud' keyword triggers risk-language escalation
+g900126,"@AmazonHelp the mixer from order 168157 started smoking when I turned it on, kind of scary.",product_defect,ESCALATE,"safety hazard, not just a generic defect -> should escalate despite intent rule not naming it"
+g900090,"@AmazonHelp where's my package, order 401924? no rush just curious on ETA.",where_is_my_order,AUTO_HANDLE,"low urgency phrasing, still same intent"
+g900019,"@AmazonHelp you guys are the worst, never ordering again, order 352353 was a disaster start to finish.",delivery_delay,ESCALATE,strong negative sentiment risk phrase 'never again'
+g900163,"@AmazonHelp it's been 3 weeks and still no refund for order 391335, I want this escalated to a manager.",refund_request,ESCALATE,explicit escalation request + long delay signals a stuck case
+g900176,@AmazonHelp lamp from order 187015 arrived with a cracked base.,product_defect,AUTO_HANDLE,"ordinary defect, matches historical grounded case"
+g900084,"@AmazonHelp please cancel order 414834 right now, ordered the wrong color.",order_cancel,AUTO_HANDLE,"routine, time-sensitive but low risk"
+g900151,"@AmazonHelp order 401394 4 days late now, missed my kid's birthday because of it.",delivery_delay,ESCALATE,"emotionally high-stakes context, judgment call"
+g900170,"@AmazonHelp where's my package, order 535469? no rush just curious on ETA.",where_is_my_order,AUTO_HANDLE,"low urgency phrasing, still same intent"
+g900049,"@AmazonHelp appreciate you guys fixing my order 815131 issue so fast, great support!",general_praise,AUTO_HANDLE,"no action needed, low risk"
+g900004,"@AmazonHelp please cancel order 150631 right now, ordered the wrong color.",order_cancel,AUTO_HANDLE,"routine, time-sensitive but low risk"
+g900098,"@AmazonHelp why is Prime pricing different for the same item as last month, order 458671?",price_complaint,AUTO_HANDLE,routine pricing question
+g900031,"@AmazonHelp order 164867 4 days late now, missed my kid's birthday because of it.",delivery_delay,ESCALATE,"emotionally high-stakes context, judgment call"
+g900152,"@AmazonHelp got a used/opened item marked as new, order 235623, that's basically fraud.",wrong_item,ESCALATE,'fraud' keyword triggers risk-language escalation
+g900085,"@AmazonHelp I can't log in, it says my account may have been compromised.",login_account_issue,ESCALATE,account security -> policy escalation
+g900034,"@AmazonHelp need to cancel 515949, but it may have already shipped, not sure what to do.",order_cancel,AUTO_HANDLE,still routine despite ambiguity
+g900076,@AmazonHelp lamp from order 360494 arrived with a cracked base.,product_defect,AUTO_HANDLE,"ordinary defect, matches historical grounded case"
+g900075,"@AmazonHelp 2FA text never arrives, locked out for 2 days now, need this fixed today.",login_account_issue,ESCALATE,"account access, time pressure"
+g900073,"@AmazonHelp refund for 575198 finally came through, thanks!",refund_request,AUTO_HANDLE,"resolved/closed, informational only, tricky: intent is refund_request but nothing to action"
+g900054,"@AmazonHelp need to cancel 769949, but it may have already shipped, not sure what to do.",order_cancel,AUTO_HANDLE,still routine despite ambiguity
+g900027,"@AmazonHelp charged me 3 times for order 334083, my bank is asking questions.",payment_issue,ESCALATE,billing -> policy escalation
+g900113,"@AmazonHelp refund for 467188 finally came through, thanks!",refund_request,AUTO_HANDLE,"resolved/closed, informational only, tricky: intent is refund_request but nothing to action"
+g900149,"@AmazonHelp appreciate you guys fixing my order 328807 issue so fast, great support!",general_praise,AUTO_HANDLE,"no action needed, low risk"
+g900055,"@AmazonHelp 2FA text never arrives, locked out for 2 days now, need this fixed today.",login_account_issue,ESCALATE,"account access, time pressure"
+g900074,"@AmazonHelp need to cancel 479146, but it may have already shipped, not sure what to do.",order_cancel,AUTO_HANDLE,still routine despite ambiguity
+g900007,"@AmazonHelp charged me 3 times for order 661913, my bank is asking questions.",payment_issue,ESCALATE,billing -> policy escalation
+g900083,"@AmazonHelp it's been 3 weeks and still no refund for order 702326, I want this escalated to a manager.",refund_request,ESCALATE,explicit escalation request + long delay signals a stuck case
+g900086,"@AmazonHelp the mixer from order 619167 started smoking when I turned it on, kind of scary.",product_defect,ESCALATE,"safety hazard, not just a generic defect -> should escalate despite intent rule not naming it"
+g900047,"@AmazonHelp charged me 3 times for order 687472, my bank is asking questions.",payment_issue,ESCALATE,billing -> policy escalation
+g900022,"@AmazonHelp received a toaster instead of the headphones I ordered, order 545140.",wrong_item,AUTO_HANDLE,"clear case, matches historical pattern"
+g900145,"@AmazonHelp I can't log in, it says my account may have been compromised.",login_account_issue,ESCALATE,account security -> policy escalation
+g900052,"@AmazonHelp got a used/opened item marked as new, order 709851, that's basically fraud.",wrong_item,ESCALATE,'fraud' keyword triggers risk-language escalation
+g900140,@AmazonHelp any update on order 463861? placed it 5 days ago and tracking is frozen.,where_is_my_order,AUTO_HANDLE,clean informational request
+g900077,@AmazonHelp payment declined but I was still billed for 932967?,payment_issue,ESCALATE,billing -> policy escalation
+g900119,"@AmazonHelp you guys are the worst, never ordering again, order 172103 was a disaster start to finish.",delivery_delay,ESCALATE,strong negative sentiment risk phrase 'never again'
+g900056,@AmazonHelp lamp from order 490487 arrived with a cracked base.,product_defect,AUTO_HANDLE,"ordinary defect, matches historical grounded case"
+g900159,"@AmazonHelp you guys are the worst, never ordering again, order 274447 was a disaster start to finish.",delivery_delay,ESCALATE,strong negative sentiment risk phrase 'never again'
+g900128,"@AmazonHelp saw the same item $30 cheaper today than when I bought it last week, order 866676.",price_complaint,AUTO_HANDLE,routine price-match ask
+g900012,"@AmazonHelp got a used/opened item marked as new, order 632084, that's basically fraud.",wrong_item,ESCALATE,'fraud' keyword triggers risk-language escalation
+g900080,@AmazonHelp any update on order 917710? placed it 5 days ago and tracking is frozen.,where_is_my_order,AUTO_HANDLE,clean informational request
+g900122,"@AmazonHelp received a toaster instead of the headphones I ordered, order 383051.",wrong_item,AUTO_HANDLE,"clear case, matches historical pattern"
+g900135,"@AmazonHelp 2FA text never arrives, locked out for 2 days now, need this fixed today.",login_account_issue,ESCALATE,"account access, time pressure"
+g900125,"@AmazonHelp I can't log in, it says my account may have been compromised.",login_account_issue,ESCALATE,account security -> policy escalation
+g900005,"@AmazonHelp I can't log in, it says my account may have been compromised.",login_account_issue,ESCALATE,account security -> policy escalation
+g900023,"@AmazonHelp it's been 3 weeks and still no refund for order 161981, I want this escalated to a manager.",refund_request,ESCALATE,explicit escalation request + long delay signals a stuck case
+g900111,"@AmazonHelp order 456644 4 days late now, missed my kid's birthday because of it.",delivery_delay,ESCALATE,"emotionally high-stakes context, judgment call"
+g900065,"@AmazonHelp I can't log in, it says my account may have been compromised.",login_account_issue,ESCALATE,account security -> policy escalation
+g900057,@AmazonHelp payment declined but I was still billed for 202163?,payment_issue,ESCALATE,billing -> policy escalation
+g900044,"@AmazonHelp please cancel order 223514 right now, ordered the wrong color.",order_cancel,AUTO_HANDLE,"routine, time-sensitive but low risk"
+g900079,"@AmazonHelp you guys are the worst, never ordering again, order 832948 was a disaster start to finish.",delivery_delay,ESCALATE,strong negative sentiment risk phrase 'never again'
+g900092,"@AmazonHelp got a used/opened item marked as new, order 176756, that's basically fraud.",wrong_item,ESCALATE,'fraud' keyword triggers risk-language escalation
+g900060,@AmazonHelp any update on order 165839? placed it 5 days ago and tracking is frozen.,where_is_my_order,AUTO_HANDLE,clean informational request
+g900035,"@AmazonHelp 2FA text never arrives, locked out for 2 days now, need this fixed today.",login_account_issue,ESCALATE,"account access, time pressure"
+g900071,"@AmazonHelp order 588218 4 days late now, missed my kid's birthday because of it.",delivery_delay,ESCALATE,"emotionally high-stakes context, judgment call"
+g900099,"@AmazonHelp you guys are the worst, never ordering again, order 259367 was a disaster start to finish.",delivery_delay,ESCALATE,strong negative sentiment risk phrase 'never again'
+g900166,"@AmazonHelp the mixer from order 551434 started smoking when I turned it on, kind of scary.",product_defect,ESCALATE,"safety hazard, not just a generic defect -> should escalate despite intent rule not naming it"
+g900063,"@AmazonHelp it's been 3 weeks and still no refund for order 749078, I want this escalated to a manager.",refund_request,ESCALATE,explicit escalation request + long delay signals a stuck case
+g900091,"@AmazonHelp order 738539 4 days late now, missed my kid's birthday because of it.",delivery_delay,ESCALATE,"emotionally high-stakes context, judgment call"
+g900138,"@AmazonHelp why is Prime pricing different for the same item as last month, order 504531?",price_complaint,AUTO_HANDLE,routine pricing question
+g900029,"@AmazonHelp appreciate you guys fixing my order 757911 issue so fast, great support!",general_praise,AUTO_HANDLE,"no action needed, low risk"
+g900051,"@AmazonHelp order 208061 4 days late now, missed my kid's birthday because of it.",delivery_delay,ESCALATE,"emotionally high-stakes context, judgment call"
+g900030,"@AmazonHelp where's my package, order 711316? no rush just curious on ETA.",where_is_my_order,AUTO_HANDLE,"low urgency phrasing, still same intent"
+g900024,"@AmazonHelp please cancel order 967017 right now, ordered the wrong color.",order_cancel,AUTO_HANDLE,"routine, time-sensitive but low risk"
+g900078,"@AmazonHelp why is Prime pricing different for the same item as last month, order 288499?",price_complaint,AUTO_HANDLE,routine pricing question
+g900161,"@AmazonHelp this is the SECOND time my package has been late, order 521154, unbelievable!!!",delivery_delay,ESCALATE,repeated failure + frustration markers
+g900164,"@AmazonHelp please cancel order 243577 right now, ordered the wrong color.",order_cancel,AUTO_HANDLE,"routine, time-sensitive but low risk"
+g900042,"@AmazonHelp received a toaster instead of the headphones I ordered, order 251262.",wrong_item,AUTO_HANDLE,"clear case, matches historical pattern"
+g900130,"@AmazonHelp where's my package, order 424646? no rush just curious on ETA.",where_is_my_order,AUTO_HANDLE,"low urgency phrasing, still same intent"
+g900154,"@AmazonHelp need to cancel 359642, but it may have already shipped, not sure what to do.",order_cancel,AUTO_HANDLE,still routine despite ambiguity
+g900068,"@AmazonHelp saw the same item $30 cheaper today than when I bought it last week, order 548363.",price_complaint,AUTO_HANDLE,routine price-match ask
+g900165,"@AmazonHelp I can't log in, it says my account may have been compromised.",login_account_issue,ESCALATE,account security -> policy escalation
+g900045,"@AmazonHelp I can't log in, it says my account may have been compromised.",login_account_issue,ESCALATE,account security -> policy escalation
+g900021,"@AmazonHelp this is the SECOND time my package has been late, order 677814, unbelievable!!!",delivery_delay,ESCALATE,repeated failure + frustration markers
+g900103,"@AmazonHelp it's been 3 weeks and still no refund for order 800675, I want this escalated to a manager.",refund_request,ESCALATE,explicit escalation request + long delay signals a stuck case
+g900169,"@AmazonHelp appreciate you guys fixing my order 840710 issue so fast, great support!",general_praise,AUTO_HANDLE,"no action needed, low risk"
+g900146,"@AmazonHelp the mixer from order 222783 started smoking when I turned it on, kind of scary.",product_defect,ESCALATE,"safety hazard, not just a generic defect -> should escalate despite intent rule not naming it"
+g900089,"@AmazonHelp appreciate you guys fixing my order 570636 issue so fast, great support!",general_praise,AUTO_HANDLE,"no action needed, low risk"
+g900011,"@AmazonHelp order 160816 4 days late now, missed my kid's birthday because of it.",delivery_delay,ESCALATE,"emotionally high-stakes context, judgment call"
+g900082,"@AmazonHelp received a toaster instead of the headphones I ordered, order 185831.",wrong_item,AUTO_HANDLE,"clear case, matches historical pattern"
+g900162,"@AmazonHelp received a toaster instead of the headphones I ordered, order 676129.",wrong_item,AUTO_HANDLE,"clear case, matches historical pattern"
+g900104,"@AmazonHelp please cancel order 181390 right now, ordered the wrong color.",order_cancel,AUTO_HANDLE,"routine, time-sensitive but low risk"
+g900097,@AmazonHelp payment declined but I was still billed for 893919?,payment_issue,ESCALATE,billing -> policy escalation
+g900177,@AmazonHelp payment declined but I was still billed for 284777?,payment_issue,ESCALATE,billing -> policy escalation
+g900069,"@AmazonHelp appreciate you guys fixing my order 914983 issue so fast, great support!",general_praise,AUTO_HANDLE,"no action needed, low risk"
+g900109,"@AmazonHelp appreciate you guys fixing my order 958105 issue so fast, great support!",general_praise,AUTO_HANDLE,"no action needed, low risk"
+g900117,@AmazonHelp payment declined but I was still billed for 935601?,payment_issue,ESCALATE,billing -> policy escalation
+g900174,"@AmazonHelp need to cancel 341960, but it may have already shipped, not sure what to do.",order_cancel,AUTO_HANDLE,still routine despite ambiguity
+g900173,"@AmazonHelp refund for 498921 finally came through, thanks!",refund_request,AUTO_HANDLE,"resolved/closed, informational only, tricky: intent is refund_request but nothing to action"
+g900141,"@AmazonHelp this is the SECOND time my package has been late, order 123658, unbelievable!!!",delivery_delay,ESCALATE,repeated failure + frustration markers
+g900002,"@AmazonHelp received a toaster instead of the headphones I ordered, order 514002.",wrong_item,AUTO_HANDLE,"clear case, matches historical pattern"
+g900066,"@AmazonHelp the mixer from order 813451 started smoking when I turned it on, kind of scary.",product_defect,ESCALATE,"safety hazard, not just a generic defect -> should escalate despite intent rule not naming it"
+g900020,@AmazonHelp any update on order 195119? placed it 5 days ago and tracking is frozen.,where_is_my_order,AUTO_HANDLE,clean informational request
+g900129,"@AmazonHelp appreciate you guys fixing my order 835567 issue so fast, great support!",general_praise,AUTO_HANDLE,"no action needed, low risk"
+g900106,"@AmazonHelp the mixer from order 685184 started smoking when I turned it on, kind of scary.",product_defect,ESCALATE,"safety hazard, not just a generic defect -> should escalate despite intent rule not naming it"
+g900120,@AmazonHelp any update on order 980770? placed it 5 days ago and tracking is frozen.,where_is_my_order,AUTO_HANDLE,clean informational request
+g900033,"@AmazonHelp refund for 713984 finally came through, thanks!",refund_request,AUTO_HANDLE,"resolved/closed, informational only, tricky: intent is refund_request but nothing to action"
+g900167,"@AmazonHelp charged me 3 times for order 676947, my bank is asking questions.",payment_issue,ESCALATE,billing -> policy escalation
+g900043,"@AmazonHelp it's been 3 weeks and still no refund for order 666950, I want this escalated to a manager.",refund_request,ESCALATE,explicit escalation request + long delay signals a stuck case
+g900095,"@AmazonHelp 2FA text never arrives, locked out for 2 days now, need this fixed today.",login_account_issue,ESCALATE,"account access, time pressure"
+g900142,"@AmazonHelp received a toaster instead of the headphones I ordered, order 584122.",wrong_item,AUTO_HANDLE,"clear case, matches historical pattern"
+g900134,"@AmazonHelp need to cancel 961850, but it may have already shipped, not sure what to do.",order_cancel,AUTO_HANDLE,still routine despite ambiguity
+g900010,"@AmazonHelp where's my package, order 711097? no rush just curious on ETA.",where_is_my_order,AUTO_HANDLE,"low urgency phrasing, still same intent"
+g900039,"@AmazonHelp you guys are the worst, never ordering again, order 239643 was a disaster start to finish.",delivery_delay,ESCALATE,strong negative sentiment risk phrase 'never again'
+g900127,"@AmazonHelp charged me 3 times for order 163616, my bank is asking questions.",payment_issue,ESCALATE,billing -> policy escalation
+g900061,"@AmazonHelp this is the SECOND time my package has been late, order 691783, unbelievable!!!",delivery_delay,ESCALATE,repeated failure + frustration markers
+g900178,"@AmazonHelp why is Prime pricing different for the same item as last month, order 258647?",price_complaint,AUTO_HANDLE,routine pricing question
+g900062,"@AmazonHelp received a toaster instead of the headphones I ordered, order 162496.",wrong_item,AUTO_HANDLE,"clear case, matches historical pattern"
+g900108,"@AmazonHelp saw the same item $30 cheaper today than when I bought it last week, order 927425.",price_complaint,AUTO_HANDLE,routine price-match ask
+g900014,"@AmazonHelp need to cancel 139317, but it may have already shipped, not sure what to do.",order_cancel,AUTO_HANDLE,still routine despite ambiguity
+g900175,"@AmazonHelp 2FA text never arrives, locked out for 2 days now, need this fixed today.",login_account_issue,ESCALATE,"account access, time pressure"
+g900121,"@AmazonHelp this is the SECOND time my package has been late, order 198142, unbelievable!!!",delivery_delay,ESCALATE,repeated failure + frustration markers
+g900179,"@AmazonHelp you guys are the worst, never ordering again, order 343224 was a disaster start to finish.",delivery_delay,ESCALATE,strong negative sentiment risk phrase 'never again'
+g900088,"@AmazonHelp saw the same item $30 cheaper today than when I bought it last week, order 864878.",price_complaint,AUTO_HANDLE,routine price-match ask
+g900064,"@AmazonHelp please cancel order 315963 right now, ordered the wrong color.",order_cancel,AUTO_HANDLE,"routine, time-sensitive but low risk"
+g900139,"@AmazonHelp you guys are the worst, never ordering again, order 801133 was a disaster start to finish.",delivery_delay,ESCALATE,strong negative sentiment risk phrase 'never again'
+g900096,@AmazonHelp lamp from order 272975 arrived with a cracked base.,product_defect,AUTO_HANDLE,"ordinary defect, matches historical grounded case"
+g900147,"@AmazonHelp charged me 3 times for order 617674, my bank is asking questions.",payment_issue,ESCALATE,billing -> policy escalation
+g900018,"@AmazonHelp why is Prime pricing different for the same item as last month, order 173248?",price_complaint,AUTO_HANDLE,routine pricing question
+g900006,"@AmazonHelp the mixer from order 961168 started smoking when I turned it on, kind of scary.",product_defect,ESCALATE,"safety hazard, not just a generic defect -> should escalate despite intent rule not naming it"
+g900093,"@AmazonHelp refund for 223800 finally came through, thanks!",refund_request,AUTO_HANDLE,"resolved/closed, informational only, tricky: intent is refund_request but nothing to action"
+g900025,"@AmazonHelp I can't log in, it says my account may have been compromised.",login_account_issue,ESCALATE,account security -> policy escalation
+g900137,@AmazonHelp payment declined but I was still billed for 851438?,payment_issue,ESCALATE,billing -> policy escalation
+g900038,"@AmazonHelp why is Prime pricing different for the same item as last month, order 683705?",price_complaint,AUTO_HANDLE,routine pricing question
+g900000,@AmazonHelp any update on order 439563? placed it 5 days ago and tracking is frozen.,where_is_my_order,AUTO_HANDLE,clean informational request
+g900153,"@AmazonHelp refund for 874230 finally came through, thanks!",refund_request,AUTO_HANDLE,"resolved/closed, informational only, tricky: intent is refund_request but nothing to action"
+g900160,@AmazonHelp any update on order 571007? placed it 5 days ago and tracking is frozen.,where_is_my_order,AUTO_HANDLE,clean informational request
+g900087,"@AmazonHelp charged me 3 times for order 460160, my bank is asking questions.",payment_issue,ESCALATE,billing -> policy escalation
+g900028,"@AmazonHelp saw the same item $30 cheaper today than when I bought it last week, order 761259.",price_complaint,AUTO_HANDLE,routine price-match ask
+g900041,"@AmazonHelp this is the SECOND time my package has been late, order 539499, unbelievable!!!",delivery_delay,ESCALATE,repeated failure + frustration markers
+g900112,"@AmazonHelp got a used/opened item marked as new, order 829070, that's basically fraud.",wrong_item,ESCALATE,'fraud' keyword triggers risk-language escalation
+g900053,"@AmazonHelp refund for 698951 finally came through, thanks!",refund_request,AUTO_HANDLE,"resolved/closed, informational only, tricky: intent is refund_request but nothing to action"
+g900017,@AmazonHelp payment declined but I was still billed for 538485?,payment_issue,ESCALATE,billing -> policy escalation
+g900048,"@AmazonHelp saw the same item $30 cheaper today than when I bought it last week, order 955770.",price_complaint,AUTO_HANDLE,routine price-match ask
+g900015,"@AmazonHelp 2FA text never arrives, locked out for 2 days now, need this fixed today.",login_account_issue,ESCALATE,"account access, time pressure"
+g900155,"@AmazonHelp 2FA text never arrives, locked out for 2 days now, need this fixed today.",login_account_issue,ESCALATE,"account access, time pressure"
+g900123,"@AmazonHelp it's been 3 weeks and still no refund for order 597128, I want this escalated to a manager.",refund_request,ESCALATE,explicit escalation request + long delay signals a stuck case
+g900026,"@AmazonHelp the mixer from order 229815 started smoking when I turned it on, kind of scary.",product_defect,ESCALATE,"safety hazard, not just a generic defect -> should escalate despite intent rule not naming it"
+g900157,@AmazonHelp payment declined but I was still billed for 620625?,payment_issue,ESCALATE,billing -> policy escalation
+g900102,"@AmazonHelp received a toaster instead of the headphones I ordered, order 141111.",wrong_item,AUTO_HANDLE,"clear case, matches historical pattern"
+g900101,"@AmazonHelp this is the SECOND time my package has been late, order 542182, unbelievable!!!",delivery_delay,ESCALATE,repeated failure + frustration markers
+g900100,@AmazonHelp any update on order 612714? placed it 5 days ago and tracking is frozen.,where_is_my_order,AUTO_HANDLE,clean informational request
+g900143,"@AmazonHelp it's been 3 weeks and still no refund for order 472731, I want this escalated to a manager.",refund_request,ESCALATE,explicit escalation request + long delay signals a stuck case
+g900116,@AmazonHelp lamp from order 708064 arrived with a cracked base.,product_defect,AUTO_HANDLE,"ordinary defect, matches historical grounded case"
+g900013,"@AmazonHelp refund for 325127 finally came through, thanks!",refund_request,AUTO_HANDLE,"resolved/closed, informational only, tricky: intent is refund_request but nothing to action"
+g900158,"@AmazonHelp why is Prime pricing different for the same item as last month, order 184495?",price_complaint,AUTO_HANDLE,routine pricing question
+g900131,"@AmazonHelp order 778563 4 days late now, missed my kid's birthday because of it.",delivery_delay,ESCALATE,"emotionally high-stakes context, judgment call"
+g900032,"@AmazonHelp got a used/opened item marked as new, order 705136, that's basically fraud.",wrong_item,ESCALATE,'fraud' keyword triggers risk-language escalation
+g900081,"@AmazonHelp this is the SECOND time my package has been late, order 355953, unbelievable!!!",delivery_delay,ESCALATE,repeated failure + frustration markers
+g900144,"@AmazonHelp please cancel order 276211 right now, ordered the wrong color.",order_cancel,AUTO_HANDLE,"routine, time-sensitive but low risk"
+g900156,@AmazonHelp lamp from order 509940 arrived with a cracked base.,product_defect,AUTO_HANDLE,"ordinary defect, matches historical grounded case"
+g900094,"@AmazonHelp need to cancel 636800, but it may have already shipped, not sure what to do.",order_cancel,AUTO_HANDLE,still routine despite ambiguity
+g900136,@AmazonHelp lamp from order 398420 arrived with a cracked base.,product_defect,AUTO_HANDLE,"ordinary defect, matches historical grounded case"
+g900107,"@AmazonHelp charged me 3 times for order 700861, my bank is asking questions.",payment_issue,ESCALATE,billing -> policy escalation
+g900037,@AmazonHelp payment declined but I was still billed for 148845?,payment_issue,ESCALATE,billing -> policy escalation
+g900001,"@AmazonHelp this is the SECOND time my package has been late, order 258176, unbelievable!!!",delivery_delay,ESCALATE,repeated failure + frustration markers
+g900072,"@AmazonHelp got a used/opened item marked as new, order 714006, that's basically fraud.",wrong_item,ESCALATE,'fraud' keyword triggers risk-language escalation
+g900067,"@AmazonHelp charged me 3 times for order 657549, my bank is asking questions.",payment_issue,ESCALATE,billing -> policy escalation
+g900046,"@AmazonHelp the mixer from order 423466 started smoking when I turned it on, kind of scary.",product_defect,ESCALATE,"safety hazard, not just a generic defect -> should escalate despite intent rule not naming it"
+g900150,"@AmazonHelp where's my package, order 905550? no rush just curious on ETA.",where_is_my_order,AUTO_HANDLE,"low urgency phrasing, still same intent"
+g900124,"@AmazonHelp please cancel order 830901 right now, ordered the wrong color.",order_cancel,AUTO_HANDLE,"routine, time-sensitive but low risk"
+g900003,"@AmazonHelp it's been 3 weeks and still no refund for order 782554, I want this escalated to a manager.",refund_request,ESCALATE,explicit escalation request + long delay signals a stuck case
+g900059,"@AmazonHelp you guys are the worst, never ordering again, order 846702 was a disaster start to finish.",delivery_delay,ESCALATE,strong negative sentiment risk phrase 'never again'
+g900168,"@AmazonHelp saw the same item $30 cheaper today than when I bought it last week, order 391945.",price_complaint,AUTO_HANDLE,routine price-match ask
